@@ -185,8 +185,8 @@ elseif (!empty($art_footer) && (trim($art_footer) != '')) { echo $art_footer; } 
 else { // HTML from Artisteer preview
 ob_start(); ?>
 
-<p>Copyright © <!--?php echo="" (="" date("y")=""?-->&lt;= 2013="" "2013"="" :="" "2013-".date("y"));=""&gt;<!--=--> Mohawk-Hudson Cycling Club, All Rights Reserved.</p>
-<p><a href="/privacy-policy">Privacy Policy</a>  <a href="/terms-of-use">Website Terms of Use</a>  <a href="/contact">Contact Us</a></p>
+<p>Copyright © <?php echo ( date("Y") <= 2013 ? "2013" : "2013-".date("Y")); ?> Mohawk-Hudson Cycling Club, All Rights Reserved.</p>
+<p><a href="/privacy-policy">Privacy Policy</a> &#8226; <a href="/terms-of-use">Website Terms of Use</a> &#8226; <a href="/contact">Contact Us</a></p>
 <?php
   $footer = str_replace('%YEAR%', date('Y'), ob_get_clean());
   echo art_replace_image_path($footer);
