@@ -1,3 +1,5 @@
+/* @override http://dev.mhcc.3.wickwoodmarketing.com/sites/dev.mhcc.3.wickwoodmarketing.com/themes/mhcc/style.css?mi33gi */
+
 /* Created by Artisteer v4.1.0.59782 */
 
 #art-main
@@ -462,9 +464,8 @@ text-align: center;
    width: 100%;
    height: 200px;
    z-index: auto;
-   background-position: center top;
-   background-image: url('images/header.png');
-   background-repeat: no-repeat;
+   background-position: top;
+   background-image: url('images/header-art-fixed.png');
 }
 
 .art-sheet
@@ -480,8 +481,8 @@ text-align: center;
 {
    margin:0 auto;
    height: 200px;
-   background-image: url('images/object1848091279.png'), url('images/header.png');
-   background-position: 547px -8px, center top;
+   background-image: url('images/object1848091279.png');
+   background-position: 482px -2px, center top;
    background-repeat: no-repeat;
    position: relative;
    z-index: auto !important;
