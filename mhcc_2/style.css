@@ -1,6 +1,107 @@
-/* Created by Artisteer v4.1.0.59782 */
+/* @override 
+	http://dev.mhcc.3.wickwoodmarketing.com/sites/dev.mhcc.3.wickwoodmarketing.com/themes/mhcc_2/style.css?mi33gi */
 
-#art-main
+/* Created by Artisteer v4.1.0.59782 */
+/*
+#art-main {
+	/* Legacy browsers */
+	/*
+	background: violet url('images/gradient-bg.png') repeat-x top;
+	-o-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	/* Internet Explorer */
+	/*
+	*background: violet;
+	background: violet\0/;
+	filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr=#FF87CEEB, endColorstr=#FFEE82EE);
+	}
+*/
+/*
+@media all and (min-width: 0px) {
+		#art-main {
+			/* Opera */
+			/*
+			background: violet url("images/gradient-bg.svg");
+			/* Recent browsers */
+			/*
+			background-image: -webkit-gradient(
+				linear,
+				left top, left bottom,
+				from(skyblue),
+				to(violet)
+			);
+			background-image: -webkit-linear-gradient(
+				top,
+				skyblue,
+				violet
+			);
+			background-image: -moz-linear-gradient(
+				top,
+				skyblue,
+				violet
+			);
+			background-image: -o-linear-gradient(
+				top,
+				skyblue,
+				violet
+			);
+			background-image: linear-gradient(
+				top,
+				skyblue,
+				violet
+			);
+		}
+	}
+*/
+/*
+#art-main {
+   background: no-repeat fixed 500px bottom, url('images/page.png') no-repeat fixed, no-repeat fixed #D0E0A4;
+   -svg-background: linear-gradient(top, rgba(212, 227, 172, 0.26) 0, rgba(212, 227, 172, 0.26) 420px, rgba(174, 201, 98, 0.15) 1050px) no-repeat, url('images/page.png') no-repeat, linear-gradient(top, #CEDEA0 0, #CEDEA0 420px, #B4CE6F 1050px) no-repeat;
+   margin:0 auto;
+   position: relative;
+   width: 100%;
+   min-height: 100%;
+   left: 0;
+   top: 0;
+   cursor:default;
+   overflow:hidden;
+   font: normal normal 17px Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   -moz-box-shadow: 0 0;
+   -webkit-box-shadow: 0 0;
+   box-shadow: 0 0;
+ }
+
+
+
+#art-main {
+  background: color position size repeat origin clip attachment image;
+  background: color position size repeat origin clip attachment image;
+  background: url('images/page.png') no-repeat fixed, 
+              no-repeat fixed #D0E0A4;
+  background: -50% bottom no-repeat fixed url('images/page.png');  
+  background-image: -webkit-gradient(linear, left top, left bottom, from(skyblue), to(violet));
+  background-image: -webkit-linear-gradient(top, skyblue, violet);
+  background-image: -moz-linear-gradient(top, skyblue, violet);
+  background-image: -o-linear-gradient(top, skyblue, violet);
+  background-image: linear-gradient(top, skyblue, violet);
+  
+  margin:0 auto;
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  left: 0;
+  top: 0;
+  cursor:default;
+  overflow:hidden;
+  font: normal normal 17px Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+  -moz-box-shadow: 0 0;
+  -webkit-box-shadow: 0 0;
+  box-shadow: 0 0;
+}
+
+ #art-main
 {
    background: #D0E0A4 url('images/page.png') no-repeat fixed;
    background: linear-gradient(top, rgba(212, 227, 172, 0.26) 0, rgba(212, 227, 172, 0.26) 420px, rgba(174, 201, 98, 0.15) 1050px) no-repeat, url('images/page.png') no-repeat, linear-gradient(top, #CEDEA0 0, #CEDEA0 420px, #B4CE6F 1050px) no-repeat;
@@ -11,6 +112,7 @@
    background: linear-gradient(top, rgba(212, 227, 172, 0.26) 0, rgba(212, 227, 172, 0.26) 420px, rgba(174, 201, 98, 0.15) 1050px) no-repeat, url('images/page.png') no-repeat, linear-gradient(top, #CEDEA0 0, #CEDEA0 420px, #B4CE6F 1050px) no-repeat;
    -svg-background: linear-gradient(top, rgba(212, 227, 172, 0.26) 0, rgba(212, 227, 172, 0.26) 420px, rgba(174, 201, 98, 0.15) 1050px) no-repeat, url('images/page.png') no-repeat, linear-gradient(top, #CEDEA0 0, #CEDEA0 420px, #B4CE6F 1050px) no-repeat;
    background-attachment: fixed, fixed, fixed !important;
+   
    margin:0 auto;
    font-size: 17px;
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
@@ -24,6 +126,29 @@
    cursor:default;
    overflow:hidden;
 }
+*/
+#art-main {	
+  background: 
+    -webkit-linear-gradient(top, rgba(135, 206, 235, 0.26) 0, rgba(135, 206, 235, 0.26) 420px, rgba(238, 130, 238, 0.15) 1050px) no-repeat, 
+    -650px bottom repeat-x url('images/tree6.png'),
+    left bottom repeat-x url('images/bicyclist-silohette.png'),
+    75px bottom repeat-x url('images/bicyclist-silohette.png'),  
+    -webkit-linear-gradient(top, #87ceeb 0, #87ceeb 420px, #ee82ee 1050px) no-repeat;
+  background-size: auto, auto 1000px, auto 195px, auto 223px, auto;
+  margin:0 auto;
+  font-size: 17px;
+  font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+  font-weight: normal;
+  font-style: normal;
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  left: 0;
+  top: 0;
+  cursor:default;
+  overflow:hidden;
+}
+
 table, ul.art-hmenu
 {
    font-size: 17px;
@@ -478,8 +603,8 @@ text-align: center;
 
 .art-header
 {
-   margin:0 auto;
-   height: 100px;
+   margin: 10px auto 0;
+   height: 110px;
    background-image: url('images/object1769127921.png'), url('images/header.png');
    background-position: 88px -1px, center top;
    background-repeat: no-repeat;
@@ -606,17 +731,20 @@ ul.art-hmenu>li>a
    -webkit-border-radius:4px;
    -moz-border-radius:4px;
    border-radius:4px;
-   padding:0 17px;
+   padding:0 10px;
    margin:0 auto;
    position: relative;
    display: block;
    height: 41px;
    cursor: pointer;
    text-decoration: none;
-   color: #2B311B;
+   color: white;
    line-height: 41px;
    text-align: center;
-}
+   -moz-box-shadow: 1px 1px 1px #7a7a74;
+   -webkit-box-shadow: 1px 1px 1px #7a7a74;
+   box-shadow: 1px 1px 1px #7a7a74;
+ }
 
 .art-hmenu a, 
 .art-hmenu a:link, 
@@ -624,7 +752,7 @@ ul.art-hmenu>li>a
 .art-hmenu a.active, 
 .art-hmenu a:hover
 {
-   font-size: 21px;
+   font-size: 16px;
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    font-weight: bold;
    font-style: normal;
@@ -656,7 +784,7 @@ ul.art-hmenu>li>a:hover, .desktop ul.art-hmenu>li:hover>a
    -webkit-border-radius:4px;
    -moz-border-radius:4px;
    border-radius:4px;
-   padding:0 17px;
+   padding:0 10px;
    margin:0 auto;
 }
 ul.art-hmenu>li>a:hover, 
@@ -1146,7 +1274,7 @@ ul.art-hmenu>li.ext>.ext-off
 
 .art-vmenublock
 {
-   background: #E6EBDB;
+   background: white;
    -webkit-border-radius:6px;
    -moz-border-radius:6px;
    border-radius:6px;
@@ -1459,13 +1587,14 @@ ul.art-vmenu ul a.active, ul.art-vmenu ul a:hover, ul.art-vmenu ul a.active:hove
 
 .art-block
 {
-   background: #E2E7D4;
+   background: white;
    -webkit-border-radius:6px;
    -moz-border-radius:6px;
    border-radius:6px;
    padding:7px;
    margin:5px;
-}
+   opacity: 0.8;
+ }
 div.art-block img
 {
    border: none;
@@ -1504,17 +1633,15 @@ div.art-block img
 
 .art-blockcontent
 {
-   background: #EDF1E5;
+   background: white;
    -webkit-border-radius:0 0 3px 3px;
    -moz-border-radius:0 0 3px 3px;
    border-radius:0 0 3px 3px;
    padding:5px;
    margin:0 auto;
    color: #323D2E;
-   font-size: 16px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-   line-height: 175%;
-}
+   font: 16px/175% Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+ }
 .art-blockcontent table,
 .art-blockcontent li, 
 .art-blockcontent a,
@@ -2032,7 +2159,7 @@ label.art-radiobutton.hovered:before
 
 .art-pager>*
 {
-   background: #E2E7D4;
+   background: white;
    -webkit-border-radius:4px;
    -moz-border-radius:4px;
    border-radius:4px;
@@ -2063,7 +2190,7 @@ label.art-radiobutton.hovered:before
 
 .art-pager .more
 {
-   background: #E2E7D4;
+   background: white;
    margin:0 4px 0 auto;
 }
 .art-pager a.more:link,
@@ -2137,14 +2264,15 @@ label.art-radiobutton.hovered:before
 }
 .art-post
 {
-   background: #E6EBDB;
+   background: white;
    -webkit-border-radius:10px;
    -moz-border-radius:10px;
    border-radius:10px;
-   border:3px solid #E6EBDB;
+   border:3px solid white;
    padding:5px;
    margin:5px;
-}
+   opacity: 0.8;
+ }
 a img
 {
    border: 0;
