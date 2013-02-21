@@ -1,5 +1,5 @@
 /* @override 
-	http://dev.mhcc.3.wickwoodmarketing.com/sites/dev.mhcc.3.wickwoodmarketing.com/themes/mhcc_2/style.css?mijg7j
+	http://dev.mhcc.3.wickwoodmarketing.com/sites/dev.mhcc.3.wickwoodmarketing.com/themes/mhcc_2/style.css?mil057
 */
 
 /* Created by Artisteer v4.1.0.59782 */
@@ -67,7 +67,7 @@
 
 table, ul.art-hmenu
 {
-   font-size: 17px;
+   font-size: 16px;
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
@@ -448,7 +448,7 @@ font-weight: normal;
 font-style: normal;
 text-decoration: none;
 text-align: center;
-text-shadow: 3px 3px 2px rgba(236, 240, 235, 0.5);
+text-shadow: 3px 3px 2px rgba(245, 245, 245, 0.5);
   padding: 0;
   margin: 0;
   color: #000000 !important;
@@ -478,16 +478,16 @@ text-shadow: 3px 3px 2px rgba(236, 240, 235, 0.5);
 .art-slogan a:visited, 
 .art-slogan a:hover
 {
-font-size: 16px;
-font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-font-weight: bold;
-font-style: italic;
-text-decoration: none;
-text-align: center;
+  font-size: 16px;
+  font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: none;
+  text-align: center;
   padding: 0;
   margin: 0;
   color: #000000 !important;
-  text-shadow: 1.5px 1.5px 2px rgba(236, 240, 235, 0.5);}
+  text-shadow: 1.5px 1.5px 2px rgba(245, 245, 245, 0.5);}
 
 
 
@@ -542,7 +542,7 @@ text-align: center;
 
 .art-nav
 {
-   margin:20px auto 0;
+   margin: 10px auto 0px;
    position: relative;
    text-align: center;
 }
@@ -680,7 +680,7 @@ ul.art-hmenu>li>a.active
    -webkit-border-radius:4px;
    -moz-border-radius:4px;
    border-radius:4px;
-   padding:0 17px;
+   padding:0 10px;
    margin:0 auto;
    color: black;
    text-decoration: none;
@@ -689,13 +689,14 @@ ul.art-hmenu>li>a.active
    background-color: #96C8DE;
    border: 1px solid rgba(40, 161, 204, 0.9);
    box-shadow: 0 0 0 rgba(0, 0, 0, 0.8);
-   text-shadow: 2px 2px 2px rgba(236, 240, 235, 0.5);
+   text-shadow: 2px 2px 2px rgba(245, 245, 245, 0.5);
    }
 
 ul.art-hmenu>li>a:visited, 
 ul.art-hmenu>li>a:hover, 
 ul.art-hmenu>li:hover>a {
    text-decoration: none;
+   text-shadow: 2px 2px 2px rgba(245, 245, 245, 0.5);
 }
 
 ul.art-hmenu>li>a:hover, .desktop ul.art-hmenu>li:hover>a
@@ -708,8 +709,12 @@ ul.art-hmenu>li>a:hover, .desktop ul.art-hmenu>li:hover>a
 }
 ul.art-hmenu>li>a:hover, 
 .desktop-nav ul.art-hmenu>li:hover>a {
-   color: #173B4A;
+   color: #black;
    text-decoration: none;
+}
+ul.art-hmenu>li>a.active:hover {
+  color: white;
+  text-shadow: 2px 2px 2px rgba(105, 105, 105, 0.5);
 }
 
 ul.art-hmenu li li a
@@ -750,10 +755,11 @@ ul.art-hmenu li li ul>li:last-child
    text-align: left;
    line-height: 27px;
    color: #0C2F3C;
-   font-size: 17px;
+   font-size: 16px;
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    text-decoration: none;
    margin:0;
+   text-shadow: 2px 2px 2px rgba(245, 245, 245, 0.5);
 }
 
 .art-hmenu ul a:link, 
@@ -764,7 +770,7 @@ ul.art-hmenu li li ul>li:last-child
    text-align: left;
    line-height: 27px;
    color: #0C2F3C;
-   font-size: 17px;
+   font-size: 16px;
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    text-decoration: none;
    margin:0;
@@ -948,9 +954,9 @@ ul.art-hmenu ul
 {
    background: none;
    /* default padding + border size */
-  padding: 0 17px 0 17px;
+   padding: 0 10px 0 10px;
    /* margin for shadow */
-  margin: -0 -0 0 -0;
+   margin: -0 -0 0;
    overflow: hidden;
    position: relative;
    border: none;
@@ -966,11 +972,11 @@ ul.art-hmenu ul
    position: absolute;
    content: ' ';
    /* top, right, left - for shadow */
-  top: 0;
+   top: 0;
    right: 0;
    left: 0;
    /* border + shadow */
-  bottom: -1px;
+   bottom: -1px;
    background-color: #96C8DE;
    border: 1px Dotted rgba(40, 161, 204, 0.9);
    border-top-left-radius: 4px;
