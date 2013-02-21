@@ -191,20 +191,20 @@ else { // HTML from Artisteer preview
 ob_start(); ?>
 	<p>
 		Copyright © 
-<!--?php echo="" (="" date("y")=""?-->
-		&lt;= 2013="" "2013"="" :="" "2013-".date("y"));=""&gt;
-<!--=-->
-		Mohawk-Hudson Cycling Club, All Rights Reserved.
+<?php echo ( date("Y") <= 2013 ? "2013" : "2013-".date("Y")); ?>
+		Mohawk-Hudson Cycling Club, All Rights Reserved. 
 	</p>
 	<p>
 	<a href="/privacy-policy">
-		Privacy Policy
+		Privacy Policy 
 	</a>
+	&#8226; 
 	<a href="/terms-of-use">
-		Website Terms of Use
+		Website Terms of Use 
 	</a>
+	&#8226; 
 	<a href="/contact">
-		Contact Us
+		Contact Us 
 	</a>
 	</p>
 <?php
