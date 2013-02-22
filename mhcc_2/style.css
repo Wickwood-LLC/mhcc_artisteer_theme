@@ -1,5 +1,8 @@
 /* @override 
-	http://dev.mhcc.3.wickwoodmarketing.com/sites/dev.mhcc.3.wickwoodmarketing.com/themes/mhcc_2/style.css?mil057
+	http://dev.mhcc.3.wickwoodmarketing.com/themes/bartik/css/style.css?mil7sz
+	http://dev.mhcc.3.wickwoodmarketing.com/sites/dev.mhcc.3.wickwoodmarketing.com/themes/mhcc_2/style.css?mil7sz
+	http://dev.mhcc.3.wickwoodmarketing.com/sites/dev.mhcc.3.wickwoodmarketing.com/themes/mhcc_2/style.css?mimqde
+	http://dev.mhcc.3.wickwoodmarketing.com/sites/dev.mhcc.3.wickwoodmarketing.com/themes/mhcc_2/style.css?mimrnh
 */
 
 /* Created by Artisteer v4.1.0.59782 */
@@ -171,9 +174,9 @@ ul.art-vmenu a
 {
    color: #48B4DB;
    margin: 10px 0 0;
-   font-size: 34px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-}
+   font: 29px Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-align: center;
+ }
 
 .art-blockcontent h1
 {
@@ -1693,7 +1696,7 @@ button.art-button
 input, select, textarea, a.art-search-button span
 {
    vertical-align: middle;
-   font-size: 17px;
+   font-size: 16px;
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
@@ -3532,3 +3535,37 @@ a.contextual-links-trigger
     margin: 0;
     padding: 0;
 }
+
+/* Styling for Calendar */
+td.fc-header-center {
+  text-align: center;
+  vertical-align: middle;
+}
+.fc-header-title h2{
+  text-align: center;
+  font-size: 26px;
+  margin: 0;
+}
+.art-postcontent a.fc-event, .art-postcontent a.fc-event:link {
+	text-decoration: none;
+	}
+  
+#edit-type-1-wrapper div.description {
+  line-height: 120%;
+  margin-top: 5px;
+}
+
+select#edit-type-1.form-select.required,
+select#edit-term-node-tid-depth-3.form-select {
+  height: 38px;
+}
+
+#views-exposed-form-full-calendar-view-page select {
+  overflow: auto;
+  width: 160px;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+
+
