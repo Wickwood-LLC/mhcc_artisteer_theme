@@ -1,8 +1,5 @@
-/* @override 
-	http://dev.mhcc.3.wickwoodmarketing.com/themes/bartik/css/style.css?mil7sz
-	http://dev.mhcc.3.wickwoodmarketing.com/sites/dev.mhcc.3.wickwoodmarketing.com/themes/mhcc_2/style.css?mil7sz
-	http://dev.mhcc.3.wickwoodmarketing.com/sites/dev.mhcc.3.wickwoodmarketing.com/themes/mhcc_2/style.css?mimqde
-	http://dev.mhcc.3.wickwoodmarketing.com/sites/dev.mhcc.3.wickwoodmarketing.com/themes/mhcc_2/style.css?mimrnh
+/* @override
+	http://dev.mhcc.3.wickwoodmarketing.com/sites/dev.mhcc.3.wickwoodmarketing.com/themes/mhcc_2/style.css?miqu5a
 */
 
 /* Created by Artisteer v4.1.0.59782 */
@@ -1551,12 +1548,10 @@ div.art-block img
 .art-blockheader .t a:hover
 {
    color: #0B2C37;
-   font-size: 21px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-   font-weight: bold;
-   font-style: normal;
-   margin: 0 5px;
-}
+   margin: 0 px;
+   text-align: center;
+   font: normal bold 18px Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+ }
 
 .art-blockcontent
 {
@@ -2305,11 +2300,9 @@ pre
 {
    color: #0F3C4D;
    margin: 5px 10px;
-   font-size: 31px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-   font-weight: bold;
-   font-style: normal;
-}
+   text-align: center;
+   font: normal bold 29px Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+ }
 
 .art-postheader a, 
 .art-postheader a:link, 
@@ -2318,10 +2311,8 @@ pre
 .art-postheader a:hover,
 .art-postheader a.hovered
 {
-   font-size: 31px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-   font-weight: bold;
-   font-style: normal;
+  text-align: center;
+  font: normal bold 29px Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
 .art-postheader a, .art-postheader a:link
@@ -3555,17 +3546,18 @@ td.fc-header-center {
   margin-top: 5px;
 }
 
-select#edit-type-1.form-select.required,
-select#edit-term-node-tid-depth-3.form-select {
-  height: 38px;
-}
-
 #views-exposed-form-full-calendar-view-page select {
   overflow: auto;
-  width: 160px;
+  width: 165px;
   margin-left: auto;
   margin-right: auto;
   height: auto;
 }
+
+select#edit-type,
+select#edit-field-ride-type-tid {
+  height: 38px;
+}
+
 
 
