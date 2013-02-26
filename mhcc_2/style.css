@@ -1,5 +1,5 @@
 /* @override
-	http://dev.mhcc.3.wickwoodmarketing.com/sites/dev.mhcc.3.wickwoodmarketing.com/themes/mhcc_2/style.css?miqu5a
+	http://dev.mhcc.3.wickwoodmarketing.com/sites/dev.mhcc.3.wickwoodmarketing.com/themes/mhcc_2/style.css?misk2q
 */
 
 /* Created by Artisteer v4.1.0.59782 */
@@ -52,7 +52,7 @@
     linear-gradient(top, #87ceeb 0, #87ceeb 420px, #ee82ee 1050px) no-repeat fixed;
   background-size: auto, auto 82%, auto 16%, auto 18%, auto;
   margin:0 auto;
-  font-size: 17px;
+  font-size: 16px;
   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
   font-weight: normal;
   font-style: normal;
@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul, ol, li
    -moz-border-radius:3px;
    border-radius:3px;
    border-width: 0;
-   padding:0 21px;
+   padding:0 10px;
    margin:0 auto;
    height:27px;
 }
@@ -276,20 +276,20 @@ ul.art-vmenu a
 {
    color: #356982;
    margin: 10px 0 0;
-   font-size: 17px;
+   font-size: 16px;
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
 .art-blockcontent h6
 {
    margin: 10px 0 0;
-   font-size: 17px;
+   font-size: 16px;
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
 .art-postcontent h6 a, .art-postcontent h6 a:link, .art-postcontent h6 a:hover, .art-postcontent h6 a:visited, .art-blockcontent h6 a, .art-blockcontent h6 a:link, .art-blockcontent h6 a:hover, .art-blockcontent h6 a:visited 
 {
-   font-size: 17px;
+   font-size: 16px;
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
@@ -1293,7 +1293,7 @@ ul.art-vmenu a
    display: block;
    cursor: pointer;
    z-index: 1;
-   font-size: 17px;
+   font-size: 16px;
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
@@ -1438,7 +1438,7 @@ ul.art-vmenu ul a
    z-index: 0;
    line-height: 22px;
    color: #162C36;
-   font-size: 17px;
+   font-size: 16px;
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
@@ -1451,7 +1451,7 @@ ul.art-vmenu ul a:visited, ul.art-vmenu ul a.active:hover, ul.art-vmenu ul a:hov
 {
    line-height: 22px;
    color: #162C36;
-   font-size: 17px;
+   font-size: 16px;
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
@@ -1624,7 +1624,7 @@ div.art-block img
 
 .art-block li
 {
-   font-size: 17px;
+   font-size: 16px;
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    line-height: 175%;
    color: #356982;
@@ -1656,25 +1656,21 @@ input.art-button,
 button.art-button
 {
    text-decoration: none;
-   font-size: 17px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-   font-weight: normal;
-   font-style: normal;
    position:relative;
    display: inline-block;
    vertical-align: middle;
    white-space: nowrap;
    text-align: center;
    color: #CCEAF5;
-   margin: 0 5px 0 0 !important;
+   margin: 0;
    overflow: visible;
    cursor: pointer;
    text-indent: 0;
-   line-height: 27px;
    -webkit-box-sizing: content-box;
    -moz-box-sizing: content-box;
    box-sizing: content-box;
-}
+   font: normal normal 16px/27px Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+ }
 
 .art-button img
 {
@@ -1728,7 +1724,7 @@ input.art-button
    -moz-border-radius:3px;
    border-radius:3px;
    border-width: 0;
-   padding:0 21px;
+   padding:0 10px;
    margin:0 auto;
 }
 .art-button.hover, .art-button:hover {
@@ -1749,7 +1745,7 @@ input[type="text"], input[type="password"], input[type="email"], input[type="url
    width: 100%;
    padding: 4px 0;
    color: #182F3A !important;
-   font-size: 17px;
+   font-size: 16px;
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
@@ -1763,7 +1759,7 @@ input.art-error, textarea.art-error
 }
 input.art-error, textarea.art-error {
    color: #182F3A !important;
-   font-size: 17px;
+   font-size: 16px;
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
@@ -1782,7 +1778,7 @@ form.art-search input[type="text"]
    -moz-box-sizing: border-box;
    box-sizing: border-box;
    color: #182F3A !important;
-   font-size: 17px;
+   font-size: 16px;
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
@@ -1847,7 +1843,7 @@ label.art-checkbox:before
 label.art-checkbox
 {
    cursor: pointer;
-   font-size: 17px;
+   font-size: 16px;
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
@@ -1901,7 +1897,7 @@ label.art-radiobutton:before
 label.art-radiobutton
 {
    cursor: pointer;
-   font-size: 17px;
+   font-size: 16px;
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
@@ -2603,7 +2599,7 @@ blockquote p,
    margin:0 auto;
    position: relative;
    color: #0D1A21;
-   font-size: 17px;
+   font-size: 16px;
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    line-height: 175%;
    text-align: center;
@@ -2618,7 +2614,7 @@ blockquote p,
 .art-footer caption
 {
    color: #0D1A21;
-   font-size: 17px;
+   font-size: 16px;
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    line-height: 175%;
 }
@@ -2761,7 +2757,7 @@ blockquote p,
 
 .art-footer li
 {
-   font-size: 17px;
+   font-size: 16px;
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    color: #234657;
 }
@@ -3559,5 +3555,36 @@ select#edit-field-ride-type-tid {
   height: 38px;
 }
 
+/* User Login Styling */
+form#user-login .form-item {
+  margin-left: 15px;
+}
+form#user-login label {
+  float: left;
+  margin-right: 20px;
+  width: 150px;
+}
+
+form#user-login input {
+  width: 30%;
+  float: none;
+}
+
+form#user-login fieldset {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+form#user-login fieldset .form-item {
+  margin-left: 0px;
+}
+
+form#user-login input.art-button {
+  width: 20%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
 
 
