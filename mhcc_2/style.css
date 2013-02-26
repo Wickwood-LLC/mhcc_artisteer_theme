@@ -2595,13 +2595,13 @@ blockquote p,
 
 .art-footer
 {
-   padding:25px;
+   padding:10px;
    margin:0 auto;
    position: relative;
    color: #0D1A21;
    font-size: 16px;
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-   line-height: 175%;
+   line-height: 125%;
    text-align: center;
 }
 
@@ -2623,12 +2623,13 @@ blockquote p,
 {
    padding:0;
    text-align: center;
-}
+   color: rgba(255, 255, 255, 0.83);
+ }
 
 .art-footer a,
 .art-footer a:link
 {
-   color: #18617B;
+   color: rgba(255, 255, 255, 0.83);
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    text-decoration: none;
 }
