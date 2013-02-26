@@ -124,8 +124,9 @@ ul.art-vmenu a
 
 .art-postcontent p
 {
-   margin: 13px 0;
-}
+   margin: 0 1em 1em;
+   line-height: 1.2em;
+ }
 
 .art-postcontent h1, .art-postcontent h1 a, .art-postcontent h1 a:link, .art-postcontent h1 a:visited, .art-postcontent h1 a:hover,
 .art-postcontent h2, .art-postcontent h2 a, .art-postcontent h2 a:link, .art-postcontent h2 a:visited, .art-postcontent h2 a:hover,
@@ -3589,9 +3590,7 @@ form#user-login input.art-button {
   display: block;
 }
 
-/**
- * Styling for Workbench information block.
- */
+/*  Styling for Workbench information block. */
 
 div.workbench-info-block {
   background: none repeat scroll 0 0 #FFFBD9;
