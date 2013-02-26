@@ -3589,4 +3589,24 @@ form#user-login input.art-button {
   display: block;
 }
 
+/**
+ * Styling for Workbench information block.
+ */
+
+div.workbench-info-block {
+  background: none repeat scroll 0 0 #FFFBD9;
+  list-style: none outside;
+  padding: 0.25em 0.5em 0.25em 0.5em;
+  margin: 7px;
+  color: #666;
+  font-size: 0.95em;
+  -webkit-background-origin: border !important;
+  -moz-background-origin: border !important;
+  background-origin: border-box !important;
+  -webkit-border-radius:6px;
+  -moz-border-radius:6px;
+  border-radius:6px;
+  border: 3px solid #fedd9f;
+}
+
 
