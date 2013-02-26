@@ -3561,8 +3561,9 @@ form#user-login .form-item {
 }
 form#user-login label {
   float: left;
-  margin-right: 20px;
-  width: 150px;
+  margin-right: 0px;
+  width: 130px;
+  text-align: left;
 }
 
 form#user-login input {
