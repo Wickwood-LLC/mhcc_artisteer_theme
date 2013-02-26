@@ -1,5 +1,5 @@
 /* @override
-	http://dev.mhcc.3.wickwoodmarketing.com/sites/dev.mhcc.3.wickwoodmarketing.com/themes/mhcc_2/style.css?misk2q
+	http://dev.mhcc.3.wickwoodmarketing.com/sites/dev.mhcc.3.wickwoodmarketing.com/themes/mhcc_2/style.css?miszvc
 */
 
 /* Created by Artisteer v4.1.0.59782 */
@@ -1711,7 +1711,7 @@ input.art-button
    -moz-border-radius:3px;
    border-radius:3px;
    border-width: 0;
-   padding:0 21px;
+   padding:0 10px;
    margin:0 auto;
 }
 .art-button.active, .art-button.active:hover {
@@ -2200,7 +2200,7 @@ a img
 
 .art-article img, img.art-article, .art-block img, .art-footer img
 {
-   margin: 7px 7px 7px 7px;
+  margin: 1em;
 }
 
 .art-metadata-icons img
@@ -3608,4 +3608,47 @@ div.workbench-info-block {
   border: 3px solid #fedd9f;
 }
 
+/* Styling of Articles Pages */
+ul>li:before.open,
+ul>li:before.closed {
+  content: none;
+}
+
+.art-block ul>li.open:before
+{
+   content: none;
+   margin-right:6px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+   margin-left: -11px;
+}
+
+.art-block ul>li.closed:before
+{
+   content: none;
+   margin-right:6px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+   margin-left: -11px;
+}
+
+ul.menu.jquerymenu.jquerymenu-processed li ul li ul li.leaf.open:before {
+  content:url('images/blockbullets.png');
+  margin-right:6px;
+  bottom: 2px;
+  position:relative;
+  display:inline-block;
+  vertical-align:middle;
+  font-size:0;
+  line-height:0;
+  margin-left: -11px;
+}
 
