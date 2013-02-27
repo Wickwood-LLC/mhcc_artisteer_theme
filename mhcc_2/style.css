@@ -1,5 +1,5 @@
 /* @override
-	http://dev.mhcc.3.wickwoodmarketing.com/sites/dev.mhcc.3.wickwoodmarketing.com/themes/mhcc_2/style.css?miszvc
+	http://dev.mhcc.3.wickwoodmarketing.com/sites/dev.mhcc.3.wickwoodmarketing.com/themes/mhcc_2/style.css?miu3ru
 */
 
 /* Created by Artisteer v4.1.0.59782 */
@@ -2201,6 +2201,7 @@ a img
 .art-article img, img.art-article, .art-block img, .art-footer img
 {
   margin: 1em;
+  border: 2px solid #9cc3d7;
 }
 
 .art-metadata-icons img
@@ -3651,4 +3652,39 @@ ul.menu.jquerymenu.jquerymenu-processed li ul li ul li.leaf.open:before {
   line-height:0;
   margin-left: -11px;
 }
+
+/* Styling for the ds_2col_fluid template. */
+
+.art-article > .group-left {
+  float: left; /* LTR */
+  width: 45%;
+  margin-left: 2.5%;
+}
+
+.art-article > .group-right {
+  float: right; /* LTR */
+  width: 45%;
+  margin-right: 2.5%;
+}
+
+.art-article.group-one-column > .group-left,
+.art-article.group-one-column > .group-right {
+  width: 100%;
+  float: none;
+}
+
+/* Styling for the Ride Events */
+
+div.user-profile.view-mode-mhcc_ride_event div.field.field-name-ds-user-picture.field-type-ds.field-label-hidden img {
+  float: right;
+  margin-left: 0;
+  margin-top: 5px;
+  margin-left: .5em;
+}
+
+div.user-profile.view-mode-mhcc_ride_event div.field-label {
+  float: left;
+  margin-right: 5px;
+}
+
 
