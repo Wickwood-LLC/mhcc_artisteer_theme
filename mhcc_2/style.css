@@ -1,5 +1,5 @@
 /* @override
-	http://dev.mhcc.3.wickwoodmarketing.com/sites/dev.mhcc.3.wickwoodmarketing.com/themes/mhcc_2/style.css?miu3ru
+	http://dev.mhcc.3.wickwoodmarketing.com/sites/dev.mhcc.3.wickwoodmarketing.com/themes/mhcc_2/style.css?miuz3r
 */
 
 /* Created by Artisteer v4.1.0.59782 */
@@ -3653,7 +3653,7 @@ ul.menu.jquerymenu.jquerymenu-processed li ul li ul li.leaf.open:before {
   margin-left: -11px;
 }
 
-/* Styling for the ds_2col_fluid template. */
+/* Styling for the ds_2col_fluid-stacked template. */
 
 .art-article > .group-left {
   float: left; /* LTR */
@@ -3671,6 +3671,31 @@ ul.menu.jquerymenu.jquerymenu-processed li ul li ul li.leaf.open:before {
 .art-article.group-one-column > .group-right {
   width: 100%;
   float: none;
+}
+
+.art-article > .group-header {
+}
+
+.art-article > .group-left {
+  float: left; /* LTR */
+  width: 45%;
+  margin-left: 2.5%;
+}
+
+.art-article > .group-right {
+  float: right; /* LTR */
+  width: 45%;
+  margin-right: 2.5%;
+}
+
+.art-article.group-one-column > .group-left,
+.art-article.group-one-column > .group-right {
+  width: 100%;
+  float: none;
+}
+
+.art-article > .group-footer {
+  clear: both;
 }
 
 /* Styling for the Ride Events */
