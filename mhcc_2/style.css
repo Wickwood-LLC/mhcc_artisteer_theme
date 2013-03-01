@@ -1,5 +1,5 @@
 /* @override
-	http://dev.mhcc.3.wickwoodmarketing.com/sites/dev.mhcc.3.wickwoodmarketing.com/themes/mhcc_2/style.css?miuz3r
+	http://dev.1.mohawkhudsoncyclingclub.org/sites/dev.1.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?miym85
 */
 
 /* Created by Artisteer v4.1.0.59782 */
@@ -101,11 +101,14 @@ h1, h2, h3, h4, h5, h6, p, a, ul, ol, li
 
 .art-postcontent,
 .art-postheadericons,
-.art-postfootericons,
 .art-blockcontent,
 ul.art-vmenu a 
 {
    text-align: left;
+}
+
+.art-postfootericons {
+  text-align: right;
 }
 
 .art-postcontent,
@@ -2528,8 +2531,8 @@ blockquote p,
 .art-postfootericons
 {
    padding: 1px;
-   margin: 0 0 0 10px;
-}
+   margin: 0 10px;
+ }
 
 .art-postfootericons a, .art-postfootericons a:link
 {
@@ -3377,6 +3380,8 @@ form.comment-form input[type="submit"], form.confirmation input[type="submit"]
 .art-tags .field .field-items, .art-tags .field .field-items .field-item
 {
 	display: inline;
+  font-weight: normal;
+  font-style: normal;
 }
 
 .art-tags .field-item a:after
@@ -3696,6 +3701,13 @@ ul.menu.jquerymenu.jquerymenu-processed li ul li ul li.leaf.open:before {
 
 .art-article > .group-footer {
   clear: both;
+  display: block;
+  overflow: auto;
+}
+
+div.group-footer div.field-label {
+  margin-left: 1em;
+  margin-top: 1em;
 }
 
 /* Styling for the Ride Events */
@@ -3712,4 +3724,55 @@ div.user-profile.view-mode-mhcc_ride_event div.field-label {
   margin-right: 5px;
 }
 
+div.field.field-name-field-ride-leader,
+div.field.field-name-field-starting-location {
+  background: #CCE0EA;
+  padding: 5px;
+  -webkit-background-origin: border !important;
+  -moz-background-origin: border !important;
+  background-origin: border-box !important;
+  -webkit-border-radius:6px;
+  -moz-border-radius:6px;
+  border-radius:6px;
+  border: 3px solid #9cc3d7;
+  margin-left: -8px;
+}
+
+div.field.field-name-field-ride-leader a,
+div.field.field-name-field-starting-location a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+div.field.field-name-field-ride-leader a:hover,
+div.field.field-name-field-starting-location a:hover {
+  text-decoration: underline;
+  color: #279AC4;
+}
+
+div.adr {
+  line-height: 1.2em;
+}
+
+
+
+/* Styling for Article Pages */
+
+.node-type-article div.art-article div.user-picture img {
+  float: left;
+  margin: .8em 1em .5em;
+}
+
+/* Styling for Unpublished Nodes */
+.node-unpublished {
+  background-color: #fedddd;
+  -webkit-background-origin: border !important;
+  -moz-background-origin: border !important;
+  background-origin: border-box !important;
+  -webkit-border-radius:6px;
+  -moz-border-radius:6px;
+  border-radius:6px;
+  border: 3px solid #fda9a9;
+  margin-left: -8px;
+}
 
