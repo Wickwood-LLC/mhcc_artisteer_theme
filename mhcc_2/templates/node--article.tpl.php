@@ -32,6 +32,7 @@ $is_blog_page = isset($node->body['und'][0]['summary']) && ($node->body['und'][0
     hide($content['links']);
     $terms = get_terms_D7($content);
     hide($content[$terms['#field_name']]);
+    print $user_picture;
     print render($content);
   ?>
 <?php if (!$is_blog_page): ?>
