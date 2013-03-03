@@ -1,5 +1,5 @@
 /* @override
-	http://dev.1.mohawkhudsoncyclingclub.org/sites/dev.1.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?miym85
+	http://dev.1.mohawkhudsoncyclingclub.org/sites/dev.1.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?mj3m8s
 */
 
 /* Created by Artisteer v4.1.0.59782 */
@@ -173,7 +173,7 @@ ul.art-vmenu a
 
 .art-postcontent h1
 {
-   color: #48B4DB;
+   color: #152933;
    margin: 10px 0 0;
    font: 29px Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    text-align: center;
@@ -194,7 +194,7 @@ ul.art-vmenu a
 
 .art-postcontent h2
 {
-   color: #48B4DB;
+   color: #152933;
    margin: 10px 0 0;
    font-size: 29px;
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
@@ -215,7 +215,7 @@ ul.art-vmenu a
 
 .art-postcontent h3
 {
-   color: #80B2CB;
+   color: #152933;
    margin: 10px 0 0;
    font-size: 26px;
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
@@ -2297,7 +2297,8 @@ pre
    margin-bottom: 5px;
 }
 
-.art-postheader
+.art-postheader,
+.art-postcontent h1.art-postheader
 {
    color: #0F3C4D;
    margin: 5px 10px;
@@ -3120,7 +3121,7 @@ fieldset, fieldset legend
 
 .messages
 {
-	padding: 5px;
+	padding: 5px 10px;
 	margin: 5px 0;
 }
 
@@ -3129,6 +3130,9 @@ fieldset, fieldset legend
 	border: 1px solid #090;
 	background: #C9FBC8;
 	margin: 5px 0;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
 }
 
 tr.even, tr.odd
@@ -3754,7 +3758,46 @@ div.adr {
   line-height: 1.2em;
 }
 
+/* Styling for Ride Event Lists */
 
+div.view-display-id-page_1 h3 {
+  background: #BBE3F2;
+  -webkit-border-radius:4px;
+  -moz-border-radius:4px;
+  border-radius:4px;
+  border:1px solid #9DC4D7;
+  margin:0 auto;
+  padding: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+div.view-display-id-page_1 div.views-row {
+  margin: 5px 15px 5px 35px;
+  display: list-item;
+  list-style-image: url('images/bicycle-bullet.png');
+}
+
+span.starting-location,
+span.ride-leader {
+  margin-left: .2em;
+}
+
+span.starting-location,
+span.starting-location-address,
+span.starting-location-directions,
+span.ride-leader, span.public-phone {
+  margin-right: .2em;
+}
+
+span.starting-location:after,
+span.starting-location-address:after,
+span.starting-location-directions:after,
+span.ride-leader:after, 
+span.public-phone:after {
+  content: ", ";
+} 
 
 /* Styling for Article Pages */
 
