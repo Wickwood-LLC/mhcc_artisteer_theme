@@ -130,14 +130,16 @@ $tabs2 = (isset($tabs2) && !(empty($tabs2))) ?'<ul class="arttabs_secondary">'.r
 <?php else: ?>
 					<article class="art-post art-article">
 						<div class="art-postcontent">
-<?php print render($title_prefix); ?>
-<?php if (!empty($title)): print '<h1'. ($tabs ? ' class="with-tabs"' : '') .'>'. $title .'</h1>'; endif; ?>
-<?php print render($title_suffix); ?>
 <?php if (!empty($tabs)) { echo $tabs.'<div class="cleared"></div>'; }; ?>
 <?php if (!empty($tabs2)) { echo $tabs2.'<div class="cleared"></div>'; } ?>
 <?php if (isset($mission) && !empty($mission)) { echo '<div id="mission">'.$mission.'</div>'; }; ?>
 <?php if (!empty($help)) { echo render($help); } ?>
 <?php if (!empty($messages)) { echo $messages; } ?>
+							<div class="art-postmetadataheader">
+								<?php print render($title_prefix); ?>
+								<?php if (!empty($title)): print '<h1'. ($tabs ? ' class="art-postheader with-tabs"' : ' class="art-postheader"') .'>'. $title .'</h1>'; endif; ?>
+								<?php print render($title_suffix); ?>
+							</div>
 <?php if (isset($action_links) && !empty($action_links)): ?>
 							<ul class="action-links">
 <?php print render($action_links); ?>
