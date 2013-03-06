@@ -3554,12 +3554,19 @@ td.fc-header-center {
   margin-top: 5px;
 }
 
-#views-exposed-form-full-calendar-view-page select {
+#views-exposed-form-full-calendar-view-page select,
+#views-exposed-form-full-calendar-view-page-1 select,
+#views-exposed-form-full-calendar-view-page-1 input {
   overflow: auto;
   width: 165px;
   margin-left: auto;
   margin-right: auto;
   height: auto;
+}
+
+#views-exposed-form-full-calendar-view-page-1 input {
+  height: 1.3em;
+  text-align: center;
 }
 
 select#edit-type,
