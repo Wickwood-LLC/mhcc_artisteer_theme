@@ -225,6 +225,70 @@ EOT;
   return $output;
 }
 
+function top_block_output($var1, $var2, $var3) {
+  $output = '';
+  if (!empty($var1) && !empty($var2) && !empty($var3)) {
+    $output .= <<< EOT
+      <table class="position" cellpadding="0" cellspacing="0" border="0">
+        <tr valign="top">
+          <td class="twenty-percent-width">$var1</td>
+          <td class="forty-percent-width">$var2</td>
+          <td>$var3</td>
+        </tr>
+      </table>
+EOT;
+  }
+  else if (!empty($var1) && !empty($var2)) {
+    $output .= <<< EOT
+      <table class="position" cellpadding="0" cellspacing="0" border="0">
+        <tr valign="top">
+          <td class="third-width">$var1</td>
+          <td>$var2</td>
+        </tr>
+      </table>
+EOT;
+  }
+  else if (!empty($var2) && !empty($var3)) {
+    $output .= <<< EOT
+      <table class="position" cellpadding="0" cellspacing="0" border="0">
+        <tr valign="top">
+          <td class="two-thirds-width">$var2</td>
+          <td>$var3</td>
+        </tr>
+      </table>
+EOT;
+  }
+  else if (!empty($var1) && !empty($var3)) {
+    $output .= <<< EOT
+      <table class="position" cellpadding="0" cellspacing="0" border="0">
+        <tr valign="top">
+          <td class="half-width">$var1</td>
+          <td>$var3</td>
+        </tr>
+      </table>
+EOT;
+  }
+  else {
+    if (!empty($var1)) {
+      $output .= <<< EOT
+        <div id="var1">$var1</div>
+EOT;
+    }
+    if (!empty($var2)) {
+      $output .= <<< EOT
+        <div id="var1">$var2</div>
+EOT;
+    }
+    if (!empty($var3)) {
+      $output .= <<< EOT
+        <div id="var1">$var3</div>
+EOT;
+    }
+  }
+
+  return $output;
+}
+
 function art_get_sidebar($sidebar, $vnavigation, $class) {
   $result = 'art-layout-cell ';
   if (empty($sidebar) && empty($vnavigation)) {
