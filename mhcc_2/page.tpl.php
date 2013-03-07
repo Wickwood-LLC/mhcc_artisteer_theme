@@ -59,7 +59,7 @@ $tabs2 = (isset($tabs2) && !(empty($tabs2))) ?'<ul class="arttabs_secondary">'.r
 	</nav>
 <?php endif; ?>
 <?php if (!empty($banner1)) { echo '<div id="banner1">'.render($banner1).'</div>'; } ?>
-<?php echo art_placeholders_output(render($top1), render($top2), render($top3)); ?>
+<?php echo top_block_output(render($top1), render($top2), render($top3)); ?>
 	<div class="art-layout-wrapper clearfix">
 		<div class="art-content-layout">
 			<div class="art-content-layout-row">
