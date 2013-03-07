@@ -1,5 +1,5 @@
 /* @override
-	http://dev.1.mohawkhudsoncyclingclub.org/sites/dev.1.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?mj3m8s
+	http://dev.2.mohawkhudsoncyclingclub.org/sites/dev.2.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?mj9o2m
 */
 
 /* Created by Artisteer v4.1.0.59782 */
@@ -3826,3 +3826,70 @@ span.public-phone:after {
   margin-left: -8px;
 }
 
+/* Styling of Top Blocks */
+.twenty-percent-width {
+  width: 20%;
+}
+.forty-percent-width {
+  width: 40%;
+}
+div.region.region-top1 div.art-block,
+div.region.region-top2 div.art-block,
+div.region.region-top3 div.art-block {
+  height: 255px !important;
+  overflow: auto;
+}
+
+div.region.region-top1 div.art-blockcontent,
+div.region.region-top2 div.art-blockcontent {
+  min-height: 205px;
+}
+
+div.region.region-top3 div.art-blockcontent {
+  min-height: 245px;
+}
+
+
+/* Styling for Upcoming Rides Block */
+#block-views-full-calendar-view-block-1 .view-header {
+  text-align: center;
+  font-weight: bold;
+}
+
+#block-views-full-calendar-view-block-1 .view-header a {
+   color: red;
+}
+
+#block-views-full-calendar-view-block-1 .views-row {
+  list-style-image: url('images/bicycle-bullet.png');
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 30px;
+  display: list-item;
+  position: relative;
+  line-height: 1em;
+  text-align: left;
+}
+
+#block-views-full-calendar-view-block-1 .block-ride-list-ride-title {
+  font-weight: bold;
+  font-style: italic;
+}
+
+#block-views-full-calendar-view-block-1 ul.pager li {
+  margin: 0;
+}
+
+#block-views-full-calendar-view-block-1 li:before {
+  content:'';
+  margin-left: 0;
+}
+
+/* Styling for SimpleAds Top Block */
+div.simplead-container {
+  text-align: center;
+}
+div.simplead-container img {
+  
+}
