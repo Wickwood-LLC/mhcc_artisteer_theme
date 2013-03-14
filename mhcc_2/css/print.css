@@ -1,0 +1,104 @@
+/* @override http://dev.2.mohawkhudsoncyclingclub.org/sites/all/modules/print/css/print.css?mjmiv2
+	http://dev.2.mohawkhudsoncyclingclub.org/sites/all/modules/print/css/print.css?mjmjm4
+	http://dev.2.mohawkhudsoncyclingclub.org/sites/dev.2.mohawkhudsoncyclingclub.org/themes/mhcc_2/css/print.css?mjml2q */
+
+
+body {
+  margin: 1em;
+  background-color: #fff;
+  font-family: sans-serif;
+}
+th {
+  text-align: left; /* LTR */
+  color: #006;
+  border-bottom: 1px solid #ccc;
+}
+tr.odd {
+  background-color: #ddd;
+}
+tr.even {
+  background-color: #fff;
+}
+td {
+  padding: 5px;
+}
+#menu {
+  visibility: hidden;
+}
+#main {
+  margin: 1em;
+}
+a:link {color: #000;}
+a:visited {color: #000;}
+a:hover {color: #00f;}
+a:link img, a:visited img {border: 0;}
+.print-footnote {font-size: xx-small;}
+img.print-logo {border: 0;}
+.print-site_name {}
+.print-breadcrumb {font-size: x-small;}
+.print-title {}
+.print-submitted {font-size: small;}
+.print-created {font-size: small;}
+.print-taxonomy {
+  text-align: right;
+}
+.print-taxonomy li {display: inline;}
+.print-content {}
+.print-hr {
+  border: 0;
+  height: 1px;
+  width: 100%;
+  color: #9E9E9E;
+  background-color: #9E9E9E;
+}
+.print-message {
+  border: medium dotted blue;
+  padding: 1em;
+}
+.print-source_url {font-size: small;}
+.print-links {font-size: small;}
+.print-footer {text-align: center;}
+
+/* Styling of Printable Ride Sheet */
+
+div.view-display-id-page_2 div.view-content h3 {
+  background-color: black;
+  color: white;
+  padding-left: 1em;
+  padding-top: .1em;
+  padding-bottom: .1em;
+}
+
+div.view-display-id-page_2 span.views-field.views-field-body {
+  margin: 5px 15px 5px 35px;
+  display: list-item;
+  list-style-image: url('../images/bicycle-bullet.png');
+}
+
+div.view-display-id-page_2 span.views-field.views-field-body a {
+  text-decoration: none;
+}
+
+div.view-display-id-page_2 span.views-field.views-field-body a:hover {
+  text-decoration: underline;
+}
+
+span.starting-location,
+span.ride-leader {
+  margin-left: .2em;
+}
+
+span.starting-location,
+span.starting-location-address,
+span.starting-location-directions,
+span.ride-leader, span.public-phone {
+  margin-right: .2em;
+}
+
+span.starting-location:after,
+span.starting-location-address:after,
+span.starting-location-directions:after,
+span.ride-leader:after, 
+span.public-phone:after {
+  content: ", ";
+} 
