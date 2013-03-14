@@ -3557,7 +3557,9 @@ td.fc-header-center {
 
 #views-exposed-form-full-calendar-view-page select,
 #views-exposed-form-full-calendar-view-page-1 select,
-#views-exposed-form-full-calendar-view-page-1 input {
+#views-exposed-form-full-calendar-view-page-1 input,
+#views-exposed-form-full-calendar-view-page-3 select,
+#views-exposed-form-full-calendar-view-page-3 input {
   overflow: auto;
   width: 165px;
   margin-left: auto;
@@ -3565,7 +3567,8 @@ td.fc-header-center {
   height: auto;
 }
 
-#views-exposed-form-full-calendar-view-page-1 input {
+#views-exposed-form-full-calendar-view-page-1 input,
+#views-exposed-form-full-calendar-view-page-3 input {
   height: 1.3em;
   text-align: center;
 }
