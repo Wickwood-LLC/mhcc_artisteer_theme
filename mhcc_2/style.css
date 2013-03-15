@@ -353,8 +353,8 @@ body
 
 form
 {
-   padding: 0 !important;
-   margin: 0 !important;
+   padding: 0;
+   margin: 0;
 }
 
 table.position
@@ -4184,6 +4184,57 @@ form#user-profile-form div#edit-actions--2.form-actions.form-wrapper input {
   margin: 0 10px;
 }
 
+/* Styling for Contact Pages */
+form.contact-form {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
 
+form.contact-form label {
+  display: block;
+  float: left;
+  margin-right: .5em;
+  width: 12em;
+  text-align: right;
+}
 
+form.contact-form label:after {
+  content: ":";
+}
 
+form.contact-form input {
+  width: 30em;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+form.contact-form input.form-checkbox {
+  width: 2em;
+}
+
+form.contact-form label.art-checkbox {
+  margin-left: 2.5em;
+  width: 15em;
+}
+form.contact-form label.art-checkbox:after {
+  content: "";
+}
+form.contact-form label.art-checkbox:before {
+  width: 30em;
+}
+
+form.contact-form textarea{
+  width: 30.7em;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+form.contact-form  div.grippie {
+  width: 30.7em;
+  margin-left: 12.5em;
+}
+
+form.contact-form input.form-submit.art-button {
+  width: 12em;
+}
