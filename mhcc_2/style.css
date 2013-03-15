@@ -4017,3 +4017,20 @@ td.views-field-field-list-in-public-directory,
 td.views-field-field-number-of-bikeabout-copies {
   text-align: center;
 }
+
+/* Styling for User Pages */
+.page-user div.field-name-ds-user-picture img {
+  float: left;
+}
+
+.page-user span.locality:after {
+  content: ",";
+}
+
+.page-user span.country {
+  display: none;
+}
+
+.page-user div.field-name-field-public-email p {
+  margin: 0;
+}
