@@ -1,6 +1,5 @@
 /* @override
-	http://dev.2.mohawkhudsoncyclingclub.org/sites/dev.2.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?mjmprs
-	http://dev.2.mohawkhudsoncyclingclub.org/sites/dev.2.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?mjmrbm
+	http://dev.2.mohawkhudsoncyclingclub.org/sites/dev.2.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?mjmsbk
 */
 
 /* Created by Artisteer v4.1.0.59782 */
@@ -3984,4 +3983,37 @@ div#slideshow-title h2 a {
   color: #08aae4;
   font-weight: bold;
   text-decoration: none;
+}
+
+/* Styling for Membership Lists */
+
+div.view-user-management.view-id-user_management table {
+  border: 3px solid #9cc3d7;
+}
+
+div.view-user-management.view-id-user_management th {
+  border-bottom: 3px solid #9cc3d7;
+}
+
+div.view-user-management.view-id-user_management tr.odd {
+  background-color: rgba(226, 219, 219, 0.81);
+  border: 1px solid #9cc3d7;
+}
+
+div.view-user-management.view-id-user_management tr.even {
+  background-color: white;
+}
+
+div.view-user-management.view-id-user_management table div.item-list ul {
+  margin: 0;
+}
+
+div.view-user-management.view-id-user_management table div.item-list li{
+  margin: 0;
+  list-style-image: none;
+}
+
+td.views-field-field-list-in-public-directory,
+td.views-field-field-number-of-bikeabout-copies {
+  text-align: center;
 }
