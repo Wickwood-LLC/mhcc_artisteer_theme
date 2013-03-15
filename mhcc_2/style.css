@@ -1,5 +1,5 @@
 /* @override
-	http://dev.2.mohawkhudsoncyclingclub.org/sites/dev.2.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?mjmsbk
+	http://dev.2.mohawkhudsoncyclingclub.org/sites/dev.2.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?mjolbx
 */
 
 /* Created by Artisteer v4.1.0.59782 */
@@ -4034,3 +4034,156 @@ td.views-field-field-number-of-bikeabout-copies {
 .page-user div.field-name-field-public-email p {
   margin: 0;
 }
+
+/* Styling for the ds-2col-stacked-fluid template.*/
+
+.ds-2col-stacked-fluid > .group-left {
+  float: left; /* LTR */
+  width: 48%;
+  margin-left: 1%;
+}
+
+.ds-2col-stacked-fluid > .group-right {
+  float: right; /* LTR */
+  width: 48%;
+  margin-right: 1%;
+}
+
+
+/* Styling for User Edit Pages */
+
+form#user-profile-form legend {
+  font-weight: bold;
+}
+
+form#user-profile-form div.form-item {
+  margin: 0;
+}
+
+form#user-profile-form div.form-item label {
+  display: block;
+  float: left;
+  padding-right: 10px;
+}
+
+form#user-profile-form div.form-item label:after {
+  content: ":";
+}
+
+form#user-profile-form div.form-item input {
+  width: 200px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+form#user-profile-form div.form-item label.art-checkbox {
+  float: none;
+  font-weight: bold;
+}
+
+form#user-profile-form div.form-item input.form-checkbox {
+  width: 25px;
+}
+
+form#user-profile-form div.form-item.form-type-textfield.form-item-mail input{
+  width: 305px;
+}
+
+form#user-profile-form #user_user_form_group_full_name label {
+  width: 180px;
+}
+
+form#user-profile-form #user_user_form_group_full_name select#edit-field-mhcc-position-und.form-select {
+  width: 200px;
+}
+
+form#user-profile-form #edit-field-mailing-address-und-0 label {
+  width: 100px;
+}
+
+form#user-profile-form #edit-field-mailing-address-und-0div.form-item-field-mailing-address-und-0-locality label{
+  float: left;
+  display: block;
+}
+
+input#edit-field-mailing-address-und-0-locality.locality.form-text {
+  float: left;
+}
+
+form#user-profile-form #edit-field-mailing-address-und-0 div.form-item-field-mailing-address-und-0-administrative-area {
+  clear: both;
+  margin-right: 20px;
+}
+
+form#user-profile-form #user_user_form_group_website_user_info {
+  width: 95%;
+}
+
+form#user-profile-form div.form-item-pass-pass1.password-parent,
+form#user-profile-form div.form-item-pass-pass2.confirm-parent {
+  width: 100%;
+}
+
+form#user-profile-form div.password-strength,
+form#user-profile-form div.password-confirm {
+  margin: 0;
+  display: block;
+  clear: both;
+  width: 50%;
+}
+
+form#user-profile-form #user_user_form_group_phone_numbers label {
+  width: 130px;
+}
+
+form#user-profile-form #edit-field-public-phone-selection label {
+  width: 322px;
+}
+
+form#user-profile-form select#edit-field-public-phone-selection-und.form-select {
+  width: 121px;
+}
+
+form#user-profile-form #user_user_form_group_personal_info label {
+  width: 100px;
+  text-align: left;
+}
+
+form#user-profile-form #user_user_form_group_personal_info input {
+  width: 300px;
+}
+
+form#user-profile-form #user_user_form_group_personal_info div.tabledrag-toggle-weight-wrapper {
+  display: none;
+}
+
+form#user-profile-form div.link-field-title.link-field-column {
+  width: 300px;
+}
+
+form#user-profile-form #field-website-values div.form-item-field-website-und-0-title label,
+form#user-profile-form #field-website-values div.form-item-field-website-und-0-url label {
+  width: 50px;
+}
+
+form#user-profile-form input#edit-field-website-und-add-more {
+  width: 10em;
+  display: block;
+  margin: .5em auto;
+}
+
+form#user-profile-form div#field-other-information-add-more-wrapper div.form-item-field-other-information-und-0-value label {
+  width: 230px;
+}
+
+form#user-profile-form div#edit-actions--2.form-actions.form-wrapper {
+  text-align: center;
+}
+
+form#user-profile-form div#edit-actions--2.form-actions.form-wrapper input {
+  margin: 0 10px;
+}
+
+
+
+
