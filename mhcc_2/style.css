@@ -1,5 +1,5 @@
 /* @override
-	http://dev.2.mohawkhudsoncyclingclub.org/sites/dev.2.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?mjolbx
+	http://dev.2.mohawkhudsoncyclingclub.org/sites/dev.2.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?mjtfhy
 */
 
 /* Created by Artisteer v4.1.0.59782 */
@@ -4237,4 +4237,9 @@ form.contact-form  div.grippie {
 
 form.contact-form input.form-submit.art-button {
   width: 12em;
+}
+
+/* Styling for Social Widgets */
+div#block-widgets-s-socialmedia-share-default div.widgets-element-horizontal {
+  margin-right: .8%;
 }
