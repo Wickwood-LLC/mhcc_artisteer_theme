@@ -1,5 +1,5 @@
 /* @override
-	http://dev.3.mohawkhudsoncyclingclub.org/sites/dev.3.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?mkncyv
+	http://dev.3.mohawkhudsoncyclingclub.org/sites/dev.3.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?mkottp
 */
 
 /* Created by Artisteer v4.1.0.59782 */
@@ -154,7 +154,7 @@ ul.art-vmenu a
 {
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    text-decoration: underline;
-   color: #279AC4;
+   color: #296379;
 }
 
 .art-postcontent a:visited, .art-postcontent a.visited
@@ -168,7 +168,7 @@ ul.art-vmenu a
 {
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    text-decoration: underline;
-   color: #09C1E1;
+   color: red;
 }
 
 .art-postcontent h1
@@ -2227,10 +2227,15 @@ a img
 
 .art-article th, .art-article td
 {
-   padding: 2px;
+   padding: 5px;
    vertical-align: top;
    text-align: left;
 }
+
+td.active {
+  background-color: rgba(221, 221, 221, 0.00);
+}
+
 
 .art-article th
 {
@@ -3985,25 +3990,34 @@ div#slideshow-title h2 a {
   text-decoration: none;
 }
 
-/* Styling for Membership Lists */
-
+/* Styling for Membership Lists and Ride Report Lists */
+div.view-mhcc-ride-reports.view-id-mhcc_ride_reports table,
 div.view-user-management.view-id-user_management table {
   border: 3px solid #9cc3d7;
 }
 
+div.view-mhcc-ride-reports.view-id-mhcc_ride_reports th,
 div.view-user-management.view-id-user_management th {
   border-bottom: 3px solid #9cc3d7;
 }
 
+th.active img {
+  margin: 0 0 0 .5em;
+  border-style: none;
+}
+
+div.view-mhcc-ride-reports.view-id-mhcc_ride_reports tr.odd,
 div.view-user-management.view-id-user_management tr.odd {
   background-color: rgba(226, 219, 219, 0.81);
   border: 1px solid #9cc3d7;
 }
 
+div.view-mhcc-ride-reports.view-id-mhcc_ride_reports tr.even,
 div.view-user-management.view-id-user_management tr.even {
   background-color: white;
 }
 
+/* Styling for Membership Lists */
 div.view-user-management.view-id-user_management table div.item-list ul {
   margin: 0;
 }
@@ -4017,6 +4031,62 @@ td.views-field-field-list-in-public-directory,
 td.views-field-field-number-of-bikeabout-copies {
   text-align: center;
 }
+
+/* Styling for Ride Report Lists */
+form#views-exposed-form-mhcc-ride-reports-page-with-page-title-1,
+form#views-exposed-form-mhcc-ride-reports-page-with-page-title-3,
+form#views-exposed-form-mhcc-ride-reports-page-with-page-title-4 {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form#views-exposed-form-mhcc-ride-reports-page-with-page-title-2 {
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+form#views-exposed-form-mhcc-ride-reports-page-with-page-title-1 .views-exposed-form .views-exposed-widget,
+form#views-exposed-form-mhcc-ride-reports-page-with-page-title-3 .views-exposed-form .views-exposed-widget,
+form#views-exposed-form-mhcc-ride-reports-page-with-page-title-4 .views-exposed-form .views-exposed-widget {
+  float: left; /* LTR */
+  padding: .5em 1em .5em 01em; /* LTR */
+}
+
+form#views-exposed-form-mhcc-ride-reports-page-with-page-title-2 .views-exposed-form .views-exposed-widget {
+  float: none; /* LTR */
+  padding: .5em 0; /* LTR */
+}
+
+form#views-exposed-form-mhcc-ride-reports-page-with-page-title-2 .views-exposed-form .views-exposed-widget label{
+  float: left;
+  margin-right: 1em;
+}
+
+.views-exposed-form .views-exposed-widget label:after {
+  content: ":";
+}
+
+div.view-mhcc-ride-reports.view-id-mhcc_ride_reports caption {
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+td.views-field.views-field-field-actual-ride-date,
+td.views-field.views-field-field-ride-leader,
+td.views-field.views-field-title,
+td.views-field.views-field-field-distance,
+td.views-field.views-field-edit-node {
+  text-align: center;
+}
+
+div.views-summarize {
+  text-align: center;
+  font-weight: bold;
+}
+
 
 /* Styling for User Pages */
 .page-user div.field-name-ds-user-picture img {
@@ -4241,5 +4311,9 @@ form.contact-form input.form-submit.art-button {
 
 /* Styling for Social Widgets */
 div#block-widgets-s-socialmedia-share-default div.widgets-element-horizontal {
-  margin-right: .7%;
+  margin-right: .6%;
+}
+
+#widgets-element-socialmedia_socialmedia-twitter-share-button {
+  margin-left: 1%;
 }
