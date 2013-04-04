@@ -1,5 +1,5 @@
 /* @override
-	http://dev.3.mohawkhudsoncyclingclub.org/sites/dev.3.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?mkottp
+	http://dev.3.mohawkhudsoncyclingclub.org/sites/dev.3.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?mkp7u2
 */
 
 /* Created by Artisteer v4.1.0.59782 */
@@ -2229,7 +2229,6 @@ a img
 {
    padding: 5px;
    vertical-align: top;
-   text-align: left;
 }
 
 td.active {
@@ -4074,19 +4073,22 @@ div.view-mhcc-ride-reports.view-id-mhcc_ride_reports caption {
   margin-top: 1em;
 }
 
-td.views-field.views-field-field-actual-ride-date,
-td.views-field.views-field-field-ride-leader,
-td.views-field.views-field-title,
-td.views-field.views-field-field-distance,
-td.views-field.views-field-edit-node {
-  text-align: center;
-}
-
 div.views-summarize {
   text-align: center;
   font-weight: bold;
 }
 
+div.view-mhcc-ride-reports.view-id-mhcc_ride_reports .views-field-title {
+  width: 50%;
+}
+div.view-mhcc-ride-reports.view-id-mhcc_ride_reports .views-field-field-actual-ride-date {
+  width: 20%;
+}
+
+div.view-mhcc-ride-reports.view-id-mhcc_ride_reports .views-field-field-number-members-attending,
+div.view-mhcc-ride-reports.view-id-mhcc_ride_reports .views-field-field-distance {
+  width: 12%;
+}
 
 /* Styling for User Pages */
 .page-user div.field-name-ds-user-picture img {
