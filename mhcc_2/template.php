@@ -44,6 +44,25 @@ function mhcc_2_views_summarize_type_total($variables) {
   return '<div class="views-summarize views-summarize-type-total">' . t('Total:') . ' ' . number_format($total, 1) . ' miles</div>';
 }
 
+/** Find out what the sort criterion is.
+    @return The sort criterion fieldname. IMPORTANT: this isn't sanitised!
+
+function mhcc_2_views_get_sort_by() {
+    if (isset($_GET['sort_by']))
+        return $_GET['sort_by'];    
+}
+*/ 
+/** Turn off Views grouping-field when sorting by title.
+
+function mhcc_2_views_views_pre_build(&$view) {
+	dsm('mhcc_2_views_views_pre_build called');
+	if ($view->name=='mhcc_ride_reports') {
+  	if (!(mhcc_2_views_get_sort_by()=='field_last_name' || mhcc_2_views_get_sort_by()=='field_first_name' )) {
+    	$view->display_handler->options['style_options']['grouping']='';    
+    }
+  }  
+}
+*/
 /* Common methods */
 
 function get_drupal_major_version() {	
