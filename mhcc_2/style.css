@@ -1,6 +1,5 @@
 /* @override
-	http://dev.3.mohawkhudsoncyclingclub.org/sites/dev.3.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?mkp7u2
-	http://dev.3.mohawkhudsoncyclingclub.org/sites/dev.3.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.responsive.css?mkpgbp
+	http://dev.3.mohawkhudsoncyclingclub.org/sites/dev.3.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?mkw56a
 */
 
 /* Created by Artisteer v4.1.0.59782 */
@@ -3621,7 +3620,7 @@ div.workbench-info-block {
   background: none repeat scroll 0 0 #FFFBD9;
   list-style: none outside;
   padding: 0.25em 0.5em 0.25em 0.5em;
-  margin: 7px;
+  margin: 7px auto;
   color: #666;
   font-size: 0.95em;
   -webkit-background-origin: border !important;
@@ -3631,6 +3630,7 @@ div.workbench-info-block {
   -moz-border-radius:6px;
   border-radius:6px;
   border: 3px solid #fedd9f;
+  width: 88%;
 }
 
 /* Styling of Articles Pages */
@@ -3755,6 +3755,7 @@ div.field.field-name-field-starting-location {
   border-radius:6px;
   border: 3px solid #9cc3d7;
   margin-left: -8px;
+  overflow: auto;
 }
 
 div.field.field-name-field-ride-leader a,
@@ -3990,35 +3991,41 @@ div#slideshow-title h2 a {
   text-decoration: none;
 }
 
-/* Styling for Membership Lists and Ride Report Lists */
+/* Styling Data Tables */
+.art-article table,
 div.view-mhcc-ride-reports.view-id-mhcc_ride_reports table,
 div.view-user-management.view-id-user_management table {
   border: 3px solid #9cc3d7;
 }
 
-div.view-mhcc-ride-reports.view-id-mhcc_ride_reports th,
-div.view-user-management.view-id-user_management th {
-  border-bottom: 3px solid #9cc3d7;
-}
-
-table.views-table thead {
-  background-color: #bae2f1;
-}
-
-th.active img {
-  margin: 0 0 0 .5em;
-  border-style: none;
-}
-
+.art-article table tr:nth-child(odd),
 div.view-mhcc-ride-reports.view-id-mhcc_ride_reports tr.odd,
 div.view-user-management.view-id-user_management tr.odd {
   background-color: rgba(226, 219, 219, 0.81);
   border: 1px solid #9cc3d7;
 }
 
+.art-article table tr:nth-child(even),
 div.view-mhcc-ride-reports.view-id-mhcc_ride_reports tr.even,
 div.view-user-management.view-id-user_management tr.even {
   background-color: white;
+}
+
+.art-article table thead,
+table.views-table thead {
+  background-color: #bae2f1;
+}
+
+.art-article table th,
+div.view-mhcc-ride-reports.view-id-mhcc_ride_reports th,
+div.view-user-management.view-id-user_management th {
+  border-bottom: 3px solid #9cc3d7;
+  background-color: #bae2f1;
+}
+
+th.active img {
+  margin: 0 0 0 .5em;
+  border-style: none;
 }
 
 /* Styling for Membership Lists */
@@ -4096,6 +4103,18 @@ div.view-mhcc-ride-reports.view-id-mhcc_ride_reports .views-field-field-actual-r
 div.view-mhcc-ride-reports.view-id-mhcc_ride_reports .views-field-field-number-members-attending,
 div.view-mhcc-ride-reports.view-id-mhcc_ride_reports .views-field-field-distance {
   width: 12%;
+}
+
+/* Styling for Ride Report Pages */
+
+div.field-name-field-ride-leader.field-type-entityreference,
+div.field-name-field-starting-location.field-type-entityreference {
+  background: rgba(221, 221, 221, 0.01);
+  border-style: none;
+}
+
+div.field-name-field-ride.field-type-entityreference article.art-post.art-article div.art-postmetadataheader {
+  display: none;
 }
 
 /* Styling for User Pages */
@@ -4327,3 +4346,95 @@ div#block-widgets-s-socialmedia-share-default div.widgets-element-horizontal {
 #widgets-element-socialmedia_socialmedia-twitter-share-button {
   margin-left: 1%;
 }
+
+span.art-posttagicon div.art-tags {
+  display: none;
+}
+
+/* Styling of Cue Sheets Page */
+#node-2188 table {
+  margin-bottom: 1.5em;
+}
+#node-2188 table td{
+  font-size: .75em;
+}
+#node-2188 h2 {
+  font-weight: bold;
+  font-size: 1.4em;
+  text-align: center;
+}
+#node-2188 ol {
+  display: block;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+#node-2188 ol li{
+  list-style-position: outside;
+}
+#cue-sheet-contributors {
+  text-align: center;
+}
+#cue-sheet-contributors ul {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+#cue-sheet-contributors ul li {
+  display: inline-block;
+}
+#cue-sheet-contributors ul li:after {
+  content: ",\00a0\00a";
+}
+#cue-sheet-contributors ul li:last-of-type:after {
+  content: "";
+}
+
+/* Style Blocks for Banner 2 Region */
+
+div.region.region-banner2  {
+	border: 2px solid #ae133e;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	border-radius:6px;
+	background: #FFF url(images/notice-arrow.png) no-repeat;
+	margin: 5px auto;
+	-webkit-box-shadow: 0 2px 8px rgba(0,0,0,.5);
+	-moz-box-shadow: 0 2px 8px rgba(0,0,0,.5);
+	box-shadow: 0 2px 8px rgba(0,0,0,.5);
+  height: 45px;
+  width: 90%;
+  position: relative;
+  overflow: hidden;
+}
+
+div.region.region-banner2 h3 {
+  display: inline-block;
+  position: absolute;
+  top: 9px;
+  left: 45px;
+  font-size: 1.5em;
+}
+
+div.region.region-banner2 div.views-row {
+  display: inline-block;
+  top: 12px;
+  position: absolute;
+  left: 200px;
+  font-size: 1.25em;
+  font-variant: normal;
+}
+
+div.region.region-banner2 div.views-field {
+  display: inline-block;
+}
+
+div.region.region-banner2 h3 a {
+  color: white;
+  text-decoration: none;
+}
+
+div.region.region-banner2 a {
+  color: red;
+  text-decoration: none;
+}
+
