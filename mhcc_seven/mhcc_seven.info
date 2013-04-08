@@ -1,0 +1,5 @@
+base theme = seven
+name = MHCC Seven
+description = An administration sub-theme of Drupal Seven Core Theme for the MHCC website.
+
+stylesheets[all][]   = style.css
