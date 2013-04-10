@@ -1,6 +1,5 @@
 /* @override
-	http://dev.3.mohawkhudsoncyclingclub.org/sites/dev.3.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?mkw56a
-	http://dev.3.mohawkhudsoncyclingclub.org/sites/dev.3.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?mkyb8o
+	http://dev.3.mohawkhudsoncyclingclub.org/sites/dev.3.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?ml00lc
 */
 
 /* Created by Artisteer v4.1.0.59782 */
@@ -128,9 +127,9 @@ ul.art-vmenu a
 
 .art-postcontent p
 {
-   margin: 0 1em 1em;
-   line-height: 1.2em;
- }
+  line-height: 1.2em;
+  margin: 0 2.5% 1em;
+}
 
 .art-postcontent h1, .art-postcontent h1 a, .art-postcontent h1 a:link, .art-postcontent h1 a:visited, .art-postcontent h1 a:hover,
 .art-postcontent h2, .art-postcontent h2 a, .art-postcontent h2 a:link, .art-postcontent h2 a:visited, .art-postcontent h2 a:hover,
@@ -3518,6 +3517,14 @@ a.contextual-links-trigger
 }
 /* End Drupal Search style */
 
+/* Styling Added by Wickwood Marekting */
+.field .field-label,
+.field .field-label-above,
+.field .label-above
+ {
+  font-weight: bold;
+}
+
 .art-comment-avatar img
 {
     margin: 0;
@@ -3726,7 +3733,7 @@ ul.menu.jquerymenu.jquerymenu-processed li ul li ul li.leaf.open:before {
 }
 
 div.group-footer div.field-label {
-  margin-left: 1em;
+  margin-left: 2.5%;
   margin-top: 1em;
 }
 
@@ -3734,18 +3741,11 @@ div.group-footer div.field-label {
 
 div.user-profile.view-mode-mhcc_ride_event div.field.field-name-ds-user-picture.field-type-ds.field-label-hidden img {
   float: right;
-  margin-left: 0;
-  margin-top: 5px;
-  margin-left: .5em;
+  margin: -1.5em .5em .5em 1em;
 }
 
-div.user-profile.view-mode-mhcc_ride_event div.field-label {
-  float: left;
-  margin-right: 5px;
-}
-
-div.field.field-name-field-ride-leader,
-div.field.field-name-field-starting-location {
+div.node-ride-event div.field-name-field-ride-leader,
+div.node-ride-event div.field-name-field-starting-location {
   background: #CCE0EA;
   padding: 5px;
   -webkit-background-origin: border !important;
@@ -3757,6 +3757,18 @@ div.field.field-name-field-starting-location {
   border: 3px solid #9cc3d7;
   margin-left: -8px;
   overflow: auto;
+}
+
+div.node-ride-event div.node-starting-location.view-mode-mhcc_ride_event {
+  margin-left: 1.5em;
+}
+
+div.node-ride-event div.user-profile.view-mode-mhcc_ride_event {
+  margin-left: 1.5em;
+}
+
+div.node-ride-event div.user-profile.view-mode-mhcc_ride_event .field-label  {
+  margin-left: -1.5em;
 }
 
 div.field.field-name-field-ride-leader a,
@@ -4348,10 +4360,6 @@ div#block-widgets-s-socialmedia-share-default div.widgets-element-horizontal {
   margin-left: 1%;
 }
 
-span.art-posttagicon div.art-tags {
-  display: none;
-}
-
 /* Styling of Cue Sheets Page */
 #node-2188 table {
   margin-bottom: 1.5em;
@@ -4440,16 +4448,16 @@ div.region.region-banner2 a {
 }
 
 /* Styling for MHCC Starting Locations */
-div.node-starting-location div.field {
+div.node-starting-location.view-mode-full div.field {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
-div.node-starting-location div.field-label-inline div.field-label{
+div.node-starting-location.view-mode-full div.field-label-inline div.field-label{
   margin-right: 1em;
   margin-top: 0em;
 }
-div.node-starting-location div.location {
+div.node-starting-location.view-mode-full div.location {
   margin-top: .35em;
 }
 
