@@ -203,7 +203,7 @@ EOT;
  * @return
  *   A string containing an unordered list of links.
  */
-function art_links_woker_D7($content) {
+function art_links_woker_D7($content, $print_terms=TRUE) {
   $result = '';
   if (!isset($content['links'])) return $result;
   foreach (array_keys($content['links']) as $name) {
@@ -218,8 +218,9 @@ function art_links_woker_D7($content) {
 	  }
     }
   }
-
-  $terms = get_terms_D7($content);
+ if ($print_terms == TRUE) {
+   $terms = get_terms_D7($content);
+ }
 if (!empty($terms)) {
 ob_start();?>
 <span class="art-posttagicon"><?php
