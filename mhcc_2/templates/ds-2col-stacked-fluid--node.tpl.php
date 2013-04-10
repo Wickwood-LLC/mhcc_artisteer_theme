@@ -78,7 +78,7 @@ if (isset($content['links']['#access'])) {
 $access_links = $content['links']['#access'];
 }
 if ($access_links && (isset($content['links']) || isset($content['comments']))):
-$output = art_links_woker_D7($content);
+$output = art_links_woker_D7($content, FALSE);
 if (!empty($output)):	?>
 	<div class="art-postfootericons art-metadata-icons">
 <?php echo $output; ?>
