@@ -1,5 +1,6 @@
-/* @override http://dev.2.mohawkhudsoncyclingclub.org/sites/all/modules/print/css/print.css?mjmiv2
-	http://dev.2.mohawkhudsoncyclingclub.org/sites/dev.2.mohawkhudsoncyclingclub.org/themes/mhcc_2/css/print.css?mjmprs */
+/* @override
+	http://dev.3.mohawkhudsoncyclingclub.org/sites/dev.3.mohawkhudsoncyclingclub.org/themes/mhcc_2/css/print.css?ml2bce
+*/
 
 
 body {
@@ -105,3 +106,233 @@ span.ride-leader:after,
 span.public-phone:after {
   content: ", ";
 } 
+
+/* Styling for the ds_2col_fluid-stacked template. */
+.art-article > .group-left {
+  float: left; /* LTR */
+  width: 45%;
+  margin-left: 2.5%;
+}
+
+.art-article > .group-right {
+  float: right; /* LTR */
+  width: 45%;
+  margin-right: 2.5%;
+}
+
+.art-article.group-one-column > .group-left,
+.art-article.group-one-column > .group-right {
+  width: 100%;
+  float: none;
+}
+
+.art-article > .group-header {
+  margin-top: 1em;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-bottom: 1em;
+}
+
+.art-article > .group-left {
+  float: left; /* LTR */
+  width: 45%;
+  margin-left: 2.5%;
+  margin-top: 1px;
+}
+
+.art-article > .group-right {
+  float: right; /* LTR */
+  width: 45%;
+  margin-right: 2.5%;
+}
+
+.art-article.group-one-column > .group-left,
+.art-article.group-one-column > .group-right {
+  width: 100%;
+  float: none;
+}
+
+.art-article > .group-footer {
+  clear: both;
+  display: block;
+  overflow: auto;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+div.group-footer div.field-label {
+  margin-top: 1em;
+}
+
+/* Styling for Printable Ride Events */
+
+div.art-postmetadataheader {
+  text-align: center;
+}
+
+/* Styling for the Ride Events */
+
+div.user-profile.view-mode-mhcc_ride_event div.field.field-name-ds-user-picture.field-type-ds.field-label-hidden img {
+  float: right;
+  margin: -.75em .5em .5em 1em;
+}
+
+div.node-ride-event div.field-name-field-ride-leader,
+div.node-ride-event div.field-name-field-starting-location {
+  padding: 5px;
+  -webkit-background-origin: border !important;
+  -moz-background-origin: border !important;
+  background-origin: border-box !important;
+  -webkit-border-radius:6px;
+  -moz-border-radius:6px;
+  border-radius:6px;
+  border: 3px solid #ccc;
+  margin-left: -8px;
+  margin-bottom: 1em;
+}
+
+div.node-ride-event div.node-starting-location.view-mode-mhcc_ride_event {
+  margin-left: 1.5em;
+}
+
+div.node-ride-event div.user-profile.view-mode-mhcc_ride_event {
+  margin-left: 1.5em;
+}
+
+div.node-ride-event div.user-profile.view-mode-mhcc_ride_event .field-label  {
+  margin-left: -1.5em;
+}
+
+div.field.field-name-field-ride-leader a,
+div.field.field-name-field-starting-location a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+div.field.field-name-field-ride-leader a:hover,
+div.field.field-name-field-starting-location a:hover {
+  text-decoration: underline;
+  color: #279AC4;
+}
+
+div.adr {
+  line-height: 1.2em;
+}
+
+/* Styling for Printable Ride Reports */
+.art-postheadericons
+{
+   padding: 1px;
+   margin: 0;
+   text-align: center;
+ }
+ 
+ h2.art-postheader {
+   margin: 0;
+ }
+ 
+ fieldset {
+   -webkit-border-radius:10px;
+   -moz-border-radius:10px;
+   border-radius:10px;
+ }
+ 
+ div.field-type-entityreference .art-post
+ {
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    border: 3px solid #ccc;
+    padding:5px;
+    margin:5px;
+ }
+ 
+ div.field-name-field-ride-leader.field-type-entityreference,
+div.field-name-field-starting-location.field-type-entityreference {
+  background: rgba(221, 221, 221, 0.00);
+  border-style: none;
+}
+
+div.field-name-field-ride.field-type-entityreference div.field.field-name-title {
+  display: none;
+}
+
+div.field-type-entityreference .art-article > .group-footer {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+div.field-type-entityreference div.group-footer div.field-label {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+fieldset#node_mhcc_ride_report_full_group_temp_range {
+  border-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+fieldset#node_mhcc_ride_report_full_group_temp_range span.fieldset-legend {
+  font-weight: bold;
+}
+
+div.field-name-field-low-temperature,
+div.field-name-field-temperature {
+  display: block;
+  float: left;
+  margin-right: 1em;
+}
+
+div.field-name-field-temperature div.field-label:before{
+  content: "to ";
+}
+
+div.field-name-field-weather-experienced div.field-item {
+  display: inline-block;
+}
+div.field-name-field-weather-experienced div.field-item:after {
+  content: ",\00a0\00a";
+}
+div.field-name-field-weather-experienced div.field-item:last-of-type:after {
+  content: "";
+}
+
+.group-left .field-label-inline .field-label {
+  width: 11em;
+}
+
+.group-right .field-label-inline .field-label {
+  width: 11em;
+}
+
+
+fieldset#node_mhcc_ride_report_full_group_number_of_riders legend {
+  font-weight: bold;
+}
+
+fieldset#node_mhcc_ride_report_full_group_number_of_riders .field-label-inline .field-label {
+  width: 22em;
+}
+
+div.field-name-field-map-used.field-label-inline .field-label,
+div.field-name-field-map-or-ride-suggestions.field-label-inline .field-label,
+div.field-name-field-refreshment-stops.field-label-inline .field-label {
+  width: 15em;
+}
+/* Styling for User Pages */
+.page-user div.field-name-ds-user-picture img {
+  float: left;
+}
+
+.page-user span.locality:after {
+  content: ",";
+}
+
+.page-user span.country {
+  display: none;
+}
+
+.page-user div.field-name-field-public-email p {
+  margin: 0;
+}
