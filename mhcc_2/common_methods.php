@@ -304,26 +304,31 @@ function art_get_sidebar($sidebar, $vnavigation, $class) {
 
 function art_submitted_worker($date, $author) {
   $output = '';
-  if ($date != '') {
-    ob_start();?>
-<span class="art-postdateicon"><?php
-$output .= ob_get_clean();
-$output .= $date;
-ob_start();?>
-</span><?php $output .= ob_get_clean();
-
-  }
+  
   if ($author != '') {
     ob_start();?>
-<span class="art-postauthoricon"><?php if ($output != '') {
-$output .= '&nbsp;|&nbsp;';
-}
-$output .= ob_get_clean();
-$output .= $author;
-ob_start();?>
-</span><?php $output .= ob_get_clean();
-
+		<span class="art-postauthoricon">
+		<?php
+			$output .= ob_get_clean();
+			$output .= $author;
+			ob_start();?>
+		</span><?php $output .= ob_get_clean();
   }
+  
+  if ($date != '') {
+    ob_start();?>
+		<span class="art-postdateicon">
+		<?php
+			if ($output != '') {
+				$output .= '&nbsp;|&nbsp;';
+			}
+			$output .= ob_get_clean();
+			$output .= $date;
+			ob_start();
+		?>
+		</span><?php $output .= ob_get_clean();
+  }
+  
   return $output;
 }
 
