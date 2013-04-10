@@ -1,5 +1,5 @@
 /* @override
-	http://dev.3.mohawkhudsoncyclingclub.org/sites/dev.3.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?ml00lc
+	http://dev.3.mohawkhudsoncyclingclub.org/sites/dev.3.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?ml1obd
 */
 
 /* Created by Artisteer v4.1.0.59782 */
@@ -2358,8 +2358,9 @@ pre
 .art-postheadericons
 {
    padding: 1px;
-   margin: 0 0 0 10px;
-}
+   margin: 0;
+   text-align: center;
+ }
 
 .art-postheadericons a, .art-postheadericons a:link
 {
@@ -3518,12 +3519,6 @@ a.contextual-links-trigger
 /* End Drupal Search style */
 
 /* Styling Added by Wickwood Marekting */
-.field .field-label,
-.field .field-label-above,
-.field .label-above
- {
-  font-weight: bold;
-}
 
 .art-comment-avatar img
 {
@@ -3706,6 +3701,10 @@ ul.menu.jquerymenu.jquerymenu-processed li ul li ul li.leaf.open:before {
 }
 
 .art-article > .group-header {
+  margin-top: 1em;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-bottom: 1em;
 }
 
 .art-article > .group-left {
@@ -3730,10 +3729,11 @@ ul.menu.jquerymenu.jquerymenu-processed li ul li ul li.leaf.open:before {
   clear: both;
   display: block;
   overflow: auto;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
 }
 
 div.group-footer div.field-label {
-  margin-left: 2.5%;
   margin-top: 1em;
 }
 
@@ -4122,14 +4122,77 @@ div.view-mhcc-ride-reports.view-id-mhcc_ride_reports .views-field-field-distance
 
 div.field-name-field-ride-leader.field-type-entityreference,
 div.field-name-field-starting-location.field-type-entityreference {
-  background: rgba(221, 221, 221, 0.01);
+  background: rgba(221, 221, 221, 0.00);
   border-style: none;
 }
 
-div.field-name-field-ride.field-type-entityreference article.art-post.art-article div.art-postmetadataheader {
+div.field-name-field-ride.field-type-entityreference div.field.field-name-title {
   display: none;
 }
 
+div.field-type-entityreference .art-article > .group-footer {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+div.field-type-entityreference div.group-footer div.field-label {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+fieldset#node_mhcc_ride_report_full_group_temp_range {
+  border-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+fieldset#node_mhcc_ride_report_full_group_temp_range span.fieldset-legend {
+  font-weight: bold;
+}
+
+div.field-name-field-low-temperature,
+div.field-name-field-temperature {
+  display: block;
+  float: left;
+  margin-right: 1em;
+}
+
+div.field-name-field-temperature div.field-label:before{
+  content: "to ";
+}
+
+div.field-name-field-weather-experienced div.field-item {
+  display: inline-block;
+}
+div.field-name-field-weather-experienced div.field-item:after {
+  content: ",\00a0\00a";
+}
+div.field-name-field-weather-experienced div.field-item:last-of-type:after {
+  content: "";
+}
+
+.group-left .field-label-inline .field-label {
+  width: 11em;
+}
+
+.group-right .field-label-inline .field-label {
+  width: 11em;
+}
+
+
+fieldset#node_mhcc_ride_report_full_group_number_of_riders legend {
+  font-weight: bold;
+}
+
+fieldset#node_mhcc_ride_report_full_group_number_of_riders .field-label-inline .field-label {
+  width: 22em;
+}
+
+div.field-name-field-map-used.field-label-inline .field-label,
+div.field-name-field-map-or-ride-suggestions.field-label-inline .field-label,
+div.field-name-field-refreshment-stops.field-label-inline .field-label {
+  width: 15em;
+}
 /* Styling for User Pages */
 .page-user div.field-name-ds-user-picture img {
   float: left;
@@ -4146,21 +4209,6 @@ div.field-name-field-ride.field-type-entityreference article.art-post.art-articl
 .page-user div.field-name-field-public-email p {
   margin: 0;
 }
-
-/* Styling for the ds-2col-stacked-fluid template.*/
-
-.ds-2col-stacked-fluid > .group-left {
-  float: left; /* LTR */
-  width: 48%;
-  margin-left: 1%;
-}
-
-.ds-2col-stacked-fluid > .group-right {
-  float: right; /* LTR */
-  width: 48%;
-  margin-right: 1%;
-}
-
 
 /* Styling for User Edit Pages */
 
