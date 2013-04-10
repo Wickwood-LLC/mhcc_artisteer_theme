@@ -1,6 +1,5 @@
-/* @override 
-	http://dev.3.mohawkhudsoncyclingclub.org/themes/seven/style.css?mkwvpl
-	http://dev.3.mohawkhudsoncyclingclub.org/sites/dev.3.mohawkhudsoncyclingclub.org/themes/mhcc_seven/style.css?mkyb8o */
+/* @override
+	http://dev.3.mohawkhudsoncyclingclub.org/sites/dev.3.mohawkhudsoncyclingclub.org/themes/mhcc_seven/style.css?ml00sa */
 
 
 /**
@@ -54,7 +53,9 @@ h6 {
   font-size: 1.077em;
 }
 p {
-  margin: 1em 0;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
 }
 dl {
   margin: 0 0 20px;
@@ -1010,5 +1011,46 @@ div.add-or-remove-shortcuts {
   float: right; /* LTR */
   width: 48%;
   margin-right: 1%;
+}
+
+/* Styling for the Ride Reports */
+
+div.user-profile.view-mode-mhcc_ride_event div.field.field-name-ds-user-picture.field-type-ds.field-label-hidden img {
+  float: right;
+  margin: -1.5em .5em .5em 1em;
+}
+
+div.view.view-mhcc-rides.view-id-mhcc_rides div.field-name-field-ride-leader.field-type-entityreference,
+div.view.view-mhcc-rides.view-id-mhcc_rides div.field-name-field-starting-location.field-type-entityreference {
+  border: 1px solid #ccc;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+div.view.view-mhcc-rides.view-id-mhcc_rides .ds-2col-stacked-fluid > .group-footer {
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+div.field-name-field-low-temperature,
+div.field-name-field-high-temperature {
+  display: block;
+  float: left;
+  margin-right: 1em;
+  padding-right: 1em;
+}
+
+#field-low-temperature-add-more-wrapper div.form-item.form-type-textfield.form-item-field-low-temperature-und-0-value span.field-suffix:after{
+  content: "\00a0\00ato\00a0\00a";
+}
+
+fieldset#node_mhcc_ride_report_form_group_temp_range {
+  border-style: none;
+  margin: 0;
+}
+
+fieldset#node_mhcc_ride_report_form_group_temp_range span.fieldset-legend,
+fieldset#node_mhcc_ride_report_form_group_temp_range .fieldset-wrapper {
+  padding: 0;
 }
 
