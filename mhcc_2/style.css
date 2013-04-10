@@ -1,5 +1,5 @@
 /* @override
-	http://dev.3.mohawkhudsoncyclingclub.org/sites/dev.3.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?ml1obd
+	http://dev.3.mohawkhudsoncyclingclub.org/sites/dev.3.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?ml2bce
 */
 
 /* Created by Artisteer v4.1.0.59782 */
@@ -3100,6 +3100,12 @@ li.messages
 {
 	background-image: none;
 	padding-left: 0;
+}
+
+fieldset {
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
 }
 
 /* Fix fieldset for IE8 and FFox */
