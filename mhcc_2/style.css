@@ -4523,4 +4523,19 @@ div.node-starting-location.view-mode-full div.location {
   margin-top: .35em;
 }
 
+/* Styling for Attached File Tables */
+
+img.file-icon {
+  margin: 0;
+}
+
+div.field-name-field-attached-files table {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.field-name-field-attached-files table td {
+  text-align: center;
+}
 
