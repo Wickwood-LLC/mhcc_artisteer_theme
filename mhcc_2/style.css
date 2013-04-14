@@ -4527,6 +4527,7 @@ div.node-starting-location.view-mode-full div.location {
 
 img.file-icon {
   margin: 0;
+  border-style: none;
 }
 
 div.field-name-field-attached-files table {
