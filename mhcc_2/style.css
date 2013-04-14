@@ -4467,6 +4467,7 @@ div.region.region-banner2  {
   height: 45px;
   position: relative;
   overflow: hidden;
+  width: 98%;
 }
 
 div.region.region-banner2 h3 {
@@ -4481,9 +4482,10 @@ div.region.region-banner2 div.views-row {
   display: inline-block;
   top: 12px;
   position: absolute;
-  left: 200px;
-  font-size: 1.25em;
+  left: 190px;
+  font-size: 1.20em;
   font-variant: normal;
+  overflow: hidden;
 }
 
 div.region.region-banner2 div.views-field {
