@@ -2561,6 +2561,11 @@ blockquote p,
    color: #238DB3;
 }
 
+.art-postfootericons .field-label-inline .field-label,
+.art-postfootericons .field-label-inline .field-items {
+  float: none; /*LTR*/
+}
+
 .Sorter img
 {
    border:0;
@@ -4548,4 +4553,15 @@ div.field-name-field-attached-files table {
 div.field-name-field-attached-files table td {
   text-align: center;
 }
+
+/* Styling for Articles */
+
+div.node-article div.user-picture {
+  float: left;
+}
+div.node-news div.art-postheadericons.art-metadata-icons,
+div.node-article div.art-postheadericons.art-metadata-icons {
+  margin-bottom: 1em;
+}
+
 
