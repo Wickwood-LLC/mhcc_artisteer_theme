@@ -1,6 +1,5 @@
 /* @override
-	http://dev.3.mohawkhudsoncyclingclub.org/sites/dev.3.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?ml9dly
-	http://dev.3.mohawkhudsoncyclingclub.org/sites/dev.3.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?ml9p58
+	http://dev.3.mohawkhudsoncyclingclub.org/sites/dev.3.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?ml9qu0
 */
 
 /* Created by Artisteer v4.1.0.59782 */
@@ -637,7 +636,7 @@ ul.art-hmenu
    margin:0 auto;
 }
 ul.art-hmenu>li {
-   margin-left: 10px;
+   margin-left: 5px;
 }
 ul.art-hmenu>li:first-child {
    margin-left: 5px;
@@ -651,7 +650,7 @@ ul.art-hmenu>li>a
    -webkit-border-radius:4px;
    -moz-border-radius:4px;
    border-radius:4px;
-   padding:0 10px;
+   padding:0 5px;
    margin:0 auto;
    position: relative;
    display: block;
