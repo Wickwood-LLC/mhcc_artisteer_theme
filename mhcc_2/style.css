@@ -4071,6 +4071,7 @@ td.views-field-field-number-of-bikeabout-copies {
 /* Styling for Ride Report Lists */
 form#views-exposed-form-mhcc-ride-reports-page-with-page-title-1,
 form#views-exposed-form-mhcc-ride-reports-page-with-page-title-4,
+form#views-exposed-form-mhcc-ride-reports-page-with-page-title-6,
 form#views-exposed-form-mhcc-ride-reports-page-with-page-title-7 {
   width: 60%;
   margin-left: auto;
@@ -4088,6 +4089,7 @@ form#views-exposed-form-mhcc-ride-reports-page-with-page-title-2 {
 
 form#views-exposed-form-mhcc-ride-reports-page-with-page-title-1 .views-exposed-form .views-exposed-widget,
 form#views-exposed-form-mhcc-ride-reports-page-with-page-title-4 .views-exposed-form .views-exposed-widget,
+form#views-exposed-form-mhcc-ride-reports-page-with-page-title-6 .views-exposed-form .views-exposed-widget,
 form#views-exposed-form-mhcc-ride-reports-page-with-page-title-7 .views-exposed-form .views-exposed-widget {
   float: left; /* LTR */
   padding: .5em 1em .5em 01em; /* LTR */
