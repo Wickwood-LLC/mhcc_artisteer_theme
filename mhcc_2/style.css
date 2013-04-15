@@ -1,5 +1,6 @@
 /* @override
 	http://dev.3.mohawkhudsoncyclingclub.org/sites/dev.3.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?ml9qu0
+	http://dev.3.mohawkhudsoncyclingclub.org/sites/dev.3.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?mla2gb
 */
 
 /* Created by Artisteer v4.1.0.59782 */
@@ -3746,9 +3747,9 @@ ul.menu.jquerymenu.jquerymenu-processed li ul li ul li.leaf.open:before {
 .art-article > .group-footer {
   clear: both;
   display: block;
-  overflow: auto;
   margin-left: 2.5%;
   margin-right: 2.5%;
+  overflow: auto;
 }
 
 div.group-footer div.field-label {
@@ -4563,5 +4564,101 @@ div.node-news div.art-postheadericons.art-metadata-icons,
 div.node-article div.art-postheadericons.art-metadata-icons {
   margin-bottom: 1em;
 }
+
+/* Styling for MHCC Store and Checkout */
+
+.node-membership-product-display div.commerce-product-title-label {
+  display: none;
+}
+
+.node-membership-product-display div.commerce-product-title {
+  float: left;
+  margin-right: 1em;
+}
+
+.node-membership-product-display .field-name-body {
+  margin-top: 1em;
+}
+
+.node-membership-product-display table {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 1em;
+}
+
+#block-commerce-checkout-progress-indication .art-block ul>li:before,
+#block-commerce-cart-cart .art-block ul>li:before {
+   content: "";
+}
+
+#block-commerce-checkout-progress-indication ul.inline li,
+#block-commerce-checkout-progress-indication ul.links.inline li,
+#block-commerce-cart-cart ul.inline li,
+#block-commerce-cart-cart ul.links.inline li {
+  display: list-item;
+  text-align: center;
+  list-style-image: url('images/bicycle-bullet.png');
+  list-style-position: inside;
+}
+
+#block-commerce-checkout-progress-indication ul.inline li,
+#block-commerce-checkout-progress-indication ul.links.inline li {
+  display: list-item;
+  text-align: left;
+  list-style-image: url('images/bicycle-bullet.png');
+  list-style-position: outside;
+}
+
+#block-commerce-cart-cart ul.inline li a,
+#block-commerce-cart-cart ul.links.inline li a {
+  color: red;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#block-commerce-checkout-progress-indication ul.inline li.active.cart,
+#block-commerce-checkout-progress-indication ul.links.inline li.active.cart {
+  color: red;
+  font-weight: bold;
+  font-style: italic;
+}
+
+form#views-form-commerce-cart-form-default input {
+  text-align: center;
+}
+
+form#views-form-commerce-cart-form-default a {
+  text-decoration: none;
+}
+
+form#commerce-checkout-form-checkout input.art-button,
+form#commerce-checkout-form-review input.art-button,
+form#views-form-commerce-cart-form-default input.art-button {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+form#commerce-checkout-form-checkout table td {
+  text-align: center;
+}
+
+fieldset#edit-buttons.checkout-buttons.form-wrapper {
+  text-align: center;
+}
+
+.checkout-buttons .checkout-cancel:focus,
+.checkout-buttons .checkout-back:focus,
+.checkout-buttons .checkout-cancel:hover,
+.checkout-buttons .checkout-back:hover {
+  padding: 4px 6px;
+}
+
+#edit-commerce-payment-payment-method img {
+  margin: 0;
+  border-style: none;
+}
+
+
 
 
