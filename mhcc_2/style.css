@@ -3558,10 +3558,17 @@ td.fc-header-center {
   font-size: 26px;
   margin: 0;
 }
-.art-postcontent a.fc-event, .art-postcontent a.fc-event:link {
+.art-postcontent a.fc-event, 
+.art-postcontent a.fc-event:link {
 	text-decoration: none;
-	}
-  
+}
+
+.fc-event-time,
+.fc-event-title {
+  padding: 0 0px;
+  font-size: 1em;
+}
+
 #edit-type-1-wrapper div.description {
   line-height: 120%;
   margin-top: 5px;
@@ -4078,7 +4085,7 @@ form#views-exposed-form-mhcc-ride-reports-page-with-page-title-7 {
   margin-right: auto;
 }
 
-
+form#views-exposed-form-mhcc-ride-reports-page-with-page-title-5,
 form#views-exposed-form-mhcc-ride-reports-page-with-page-title-3,
 form#views-exposed-form-mhcc-ride-reports-page-with-page-title-2 {
   width: 20%;
@@ -4095,6 +4102,7 @@ form#views-exposed-form-mhcc-ride-reports-page-with-page-title-7 .views-exposed-
   padding: .5em 1em .5em 01em; /* LTR */
 }
 
+form#views-exposed-form-mhcc-ride-reports-page-with-page-title-3 .views-exposed-form .views-exposed-widget,
 form#views-exposed-form-mhcc-ride-reports-page-with-page-title-3 .views-exposed-form .views-exposed-widget,
 form#views-exposed-form-mhcc-ride-reports-page-with-page-title-2 .views-exposed-form .views-exposed-widget {
   float: none; /* LTR */
