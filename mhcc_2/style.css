@@ -4659,6 +4659,17 @@ fieldset#edit-buttons.checkout-buttons.form-wrapper {
   border-style: none;
 }
 
+/* Styling for Classifed Ads */
+
+table.classified-term-list {
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+table.classified-term-list td {
+  text-align: center;
+}
 
 
 
