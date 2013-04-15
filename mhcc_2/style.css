@@ -708,7 +708,7 @@ ul.art-hmenu>li>a:hover, .desktop ul.art-hmenu>li:hover>a
    -webkit-border-radius:4px;
    -moz-border-radius:4px;
    border-radius:4px;
-   padding:0 10px;
+   padding:0 5px;
    margin:0 auto;
 }
 ul.art-hmenu>li>a:hover, 
@@ -958,9 +958,9 @@ ul.art-hmenu ul
 {
    background: none;
    /* default padding + border size */
-   padding: 0 10px 0 10px;
+   padding: 0 10px;
    /* margin for shadow */
-   margin: -0 -0 0;
+   margin: 0 -5px 0 0;
    overflow: hidden;
    position: relative;
    border: none;
