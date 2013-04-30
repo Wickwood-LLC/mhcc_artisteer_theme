@@ -1,6 +1,5 @@
 /* @override
-	http://dev.3.mohawkhudsoncyclingclub.org/sites/dev.3.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?ml9qu0
-	http://dev.3.mohawkhudsoncyclingclub.org/sites/dev.3.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?mla2gb
+	http://dev.4.mohawkhudsoncyclingclub.org/sites/dev.4.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?mm38uc
 */
 
 /* Created by Artisteer v4.1.0.59782 */
@@ -651,7 +650,7 @@ ul.art-hmenu>li>a
    -webkit-border-radius:4px;
    -moz-border-radius:4px;
    border-radius:4px;
-   padding:0 5px;
+   padding:0 10px;
    margin:0 auto;
    position: relative;
    display: block;
@@ -709,7 +708,7 @@ ul.art-hmenu>li>a:hover, .desktop ul.art-hmenu>li:hover>a
    -webkit-border-radius:4px;
    -moz-border-radius:4px;
    border-radius:4px;
-   padding:0 5px;
+   padding:0 10px;
    margin:0 auto;
 }
 ul.art-hmenu>li>a:hover, 
@@ -1598,14 +1597,14 @@ div.art-block img
 
 .art-blockcontent a:visited, .art-blockcontent a.visited
 {
-   color: #80B2CB;
+   color: #000000;
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    text-decoration: none;
 }
 
 .art-blockcontent a:hover, .art-blockcontent a.hover
 {
-   color: #09C1E1;
+   color: red;
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    text-decoration: underline;
 }
@@ -4081,6 +4080,12 @@ td.views-field-field-number-of-bikeabout-copies {
   text-align: center;
 }
 
+#views-exposed-form-user-management-page-3 div div.views-exposed-form {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Styling for Ride Report Lists */
 form#views-exposed-form-mhcc-ride-reports-page-with-page-title-1,
 form#views-exposed-form-mhcc-ride-reports-page-with-page-title-4,
@@ -4510,6 +4515,18 @@ div.region.region-banner2 div.views-row {
   overflow: hidden;
 }
 
+.node-type-membership-product-display div.region.region-banner2 div.views-row,
+.page-checkout div.region.region-banner2 div.views-row,
+.page-calendar div.region.region-banner2 div.views-row {
+  display: inline-block;
+  top: 2px;
+  position: absolute;
+  left: 190px;
+  font-size: 1.20em;
+  font-variant: normal;
+  overflow: hidden;
+}
+
 div.region.region-banner2 div.views-field {
   display: inline-block;
 }
@@ -4670,6 +4687,31 @@ table.classified-term-list {
 table.classified-term-list td {
   text-align: center;
 }
+
+/* Styling for Selecting other Users by Address View */
+div.view-list-members-with-matching-address fieldset#edit-select.container-inline.collapsible.form-wrapper.collapse-processed {
+  border-style: none;
+  text-align: center;
+}
+
+div.view-list-members-with-matching-address fieldset#edit-select.container-inline.collapsible.form-wrapper.collapse-processed .fieldset-legend {
+  display: none;
+}
+
+.page-matching-addresses-1-yr-2-member div.breadcrumb.art-postcontent,
+.page-matching-addresses-1-yr-3-member div.breadcrumb.art-postcontent,
+.page-matching-addresses-2-yr-2-member div.breadcrumb.art-postcontent,
+.page-matching-addresses-2-yr-3-member div.breadcrumb.art-postcontent,
+.page-matching-addresses-3-yr-2-member div.breadcrumb.art-postcontent,
+.page-matching-addresses-3-yr-3-member div.breadcrumb.art-postcontent {
+  display: none;
+}
+
+
+
+
+
+
 
 
 
