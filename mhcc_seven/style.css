@@ -1,5 +1,5 @@
 /* @override
-	http://dev.3.mohawkhudsoncyclingclub.org/sites/dev.3.mohawkhudsoncyclingclub.org/themes/mhcc_seven/style.css?ml00sa */
+	http://dev.4.mohawkhudsoncyclingclub.org/sites/dev.4.mohawkhudsoncyclingclub.org/themes/mhcc_seven/style.css?mlv776 */
 
 
 /**
@@ -1054,3 +1054,8 @@ fieldset#node_mhcc_ride_report_form_group_temp_range .fieldset-wrapper {
   padding: 0;
 }
 
+/* Hide Administrative Overlay */
+
+fieldset#edit-overlay-control {
+  display: none;
+}
