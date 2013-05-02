@@ -1,5 +1,5 @@
 /* @override
-	http://dev.4.mohawkhudsoncyclingclub.org/sites/dev.4.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?mm38uc
+	http://dev.4.mohawkhudsoncyclingclub.org/sites/dev.4.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?mm5lhq
 */
 
 /* Created by Artisteer v4.1.0.59782 */
@@ -3954,14 +3954,6 @@ div.region.region-top3 div.art-blockcontent {
   margin-left: 0;
 }
 
-/* Styling for SimpleAds Top Block */
-div.simplead-container {
-  text-align: center;
-}
-div.simplead-container img {
-  
-}
-
 /* Home Page Feacture Slide Show Styling */
 #block-views-front-page-slideshow-block {
   width: 90%;
@@ -4707,9 +4699,34 @@ div.view-list-members-with-matching-address fieldset#edit-select.container-inlin
   display: none;
 }
 
+/* Styling for Simple Ads Review Page*/
 
+div.field-name-field-ad-image,
+div.field-name-field-ad-extra-text {
+  text-align: center;
+}
 
+div.field-name-field-ad-image img {
+  border-style: none;
+}
 
+/* Styling for SimpleAds Top Block */
+
+div.simplead-container {
+  text-align: center;
+  font-weight: bold;
+  vertical-align:middle;
+  height: 244px;
+  width: 375px;
+  overflow: hidden;
+  display: table-cell;
+
+}
+
+div.simplead-container p {
+  line-height: normal;
+  font-size: .85em;
+}
 
 
 
