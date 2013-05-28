@@ -4072,6 +4072,25 @@ td.views-field-field-number-of-bikeabout-copies {
   text-align: center;
 }
 
+#views-exposed-form-user-management-page-1 div div.views-exposed-form {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#views-exposed-form-user-management-page-1 div.form-item-rid-op {
+  width: 100%;
+}
+
+#views-exposed-form-user-management-page-1 div.form-item-rid-op select#edit-rid-op.form-select {
+  width: 100%;
+}
+
+#views-exposed-form-user-management-page-1 div#edit-created-widget-wrapper.views-exposed-widget.views-widget-filter-created,
+#views-exposed-form-user-management-page-1 div#edit-rid-widget-wrapper.views-exposed-widget.views-widget-filter-rid {
+   width: 24%;
+}
+
 #views-exposed-form-user-management-page-3 div div.views-exposed-form {
   width: 60%;
   margin-left: auto;
