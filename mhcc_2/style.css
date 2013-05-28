@@ -4748,6 +4748,31 @@ div.simplead-container p {
   font-size: .85em;
 }
 
+/*Styling for Forums */
+tr.even td.forum-list-icon-default .forum-list-icon-wrapper span,
+tr.odd td.forum-list-icon-default .forum-list-icon-wrapper span,
+.forum-list-icon-legend .forum-list-icon-default {
+  background: transparent url(images/MHCClogo2-forum-default.png) no-repeat center center;
+}
+
+tr.even td.forum-list-icon-new-posts .forum-list-icon-wrapper span,
+tr.odd td.forum-list-icon-new-posts .forum-list-icon-wrapper span,
+.forum-list-icon-legend .forum-list-icon-new-posts {
+  background: transparent url(images/MHCClogo2-forum_new_posts.png ) no-repeat center center;
+}
+
+img.print-icon {
+  border-style: none;
+  margin-right: .5em;
+}
+
+div.forum-post-links ul.links.inline li {
+
+}
+
+div.feed-icon img {
+  border-style: none;
+}
 
 
 
