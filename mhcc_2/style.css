@@ -1,5 +1,5 @@
 /* @override
-	http://dev.3.mohawkhudsoncyclingclub.org/sites/dev.3.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?mnhhrd
+	http://dev.1.mohawkhudsoncyclingclub.org/sites/dev.1.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?mnwb7l
 */
 
 /* Created by Artisteer v4.1.0.59782 */
@@ -4492,7 +4492,7 @@ div#block-widgets-s-socialmedia-share-default div.widgets-element-horizontal {
 
 /* Style Blocks for Banner 2 Region */
 
-div.region.region-banner2  {
+div.region.region-banner2 div.block {
 	border: 2px solid #ae133e;
 	-webkit-border-radius:6px;
 	-moz-border-radius:6px;
