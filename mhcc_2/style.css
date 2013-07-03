@@ -1,5 +1,6 @@
 /* @override
 	http://dev.1.mohawkhudsoncyclingclub.org/sites/dev.1.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?mnwb7l
+	http://dev.2.mohawkhudsoncyclingclub.org/sites/dev.2.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?mpc31s
 */
 
 /* Created by Artisteer v4.1.0.59782 */
@@ -3756,6 +3757,42 @@ div.group-footer div.field-label {
 }
 
 /* Styling for the Ride Events */
+div.group-header,
+div.group-left {
+  position: relative;
+}
+
+div.group-header div.field-name-field-canceled {
+  font-weight: bold;
+  text-align: center;
+  font-style: italic;
+  font-size: 2em;
+  color: red;
+  font-variant: small-caps;
+  text-transform: uppercase;
+  -webkit-transform: rotate(-30deg); 
+  -moz-transform: rotate(-30deg);
+  transform: rotate(-30deg);
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
+
+div.group-left div.field-name-field-canceled {
+  font-weight: bold;
+  text-align: center;
+  font-style: italic;
+  font-size: 2em;
+  color: red;
+  font-variant: small-caps;
+  text-transform: uppercase;
+  -webkit-transform: rotate(-30deg); 
+  -moz-transform: rotate(-30deg);
+  transform: rotate(-30deg);
+  position: absolute;
+  top: 30px;
+  left: 200px;
+}
 
 div.user-profile.view-mode-mhcc_ride_event div.field.field-name-ds-user-picture.field-type-ds.field-label-hidden img {
   float: right;
@@ -3888,9 +3925,12 @@ div.view-display-id-page_3 div.views-row {
   margin-left: -8px;
 }
 
-/* Styling of Top Blocks */
+/* Styling of Top and Bottom Blocks */
 .twenty-percent-width {
   width: 20%;
+}
+.thirty-percent-width {
+  width: 30%;
 }
 .forty-percent-width {
   width: 40%;
