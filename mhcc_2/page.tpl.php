@@ -182,7 +182,7 @@ $tabs2 = (isset($tabs2) && !(empty($tabs2))) ?'<ul class="arttabs_secondary">'.r
 		</div>
 	</div>
 </div>
-<?php echo art_placeholders_output(render($bottom1), render($bottom2), render($bottom3)); ?>
+<?php echo bottom_block_output(render($bottom1), render($bottom2), render($bottom3)); ?>
 <?php if (!empty($banner6)) { echo '<div id="banner6">'.render($banner6).'</div>'; } ?>
 <footer class="art-footer clearfix">
 <?php
