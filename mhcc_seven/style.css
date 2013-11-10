@@ -1,5 +1,7 @@
 /* @override
-	http://dev.1.mohawkhudsoncyclingclub.org/sites/dev.1.mohawkhudsoncyclingclub.org/themes/mhcc_seven/style.css?mnw5gg */
+	http://dev.1.mohawkhudsoncyclingclub.org/sites/dev.1.mohawkhudsoncyclingclub.org/themes/mhcc_seven/style.css?mnw5gg
+	http://dev.3.mohawkhudsoncyclingclub.org/sites/dev.3.mohawkhudsoncyclingclub.org/themes/mhcc_seven/style.css?mvwru4
+	http://dev.3.mohawkhudsoncyclingclub.org/sites/dev.3.mohawkhudsoncyclingclub.org/themes/mhcc_seven/style.css?mw0ln3 */
 
 
 /**
@@ -1077,4 +1079,43 @@ fieldset#node_mhcc_ride_report_form_group_temp_range .fieldset-wrapper {
 
 fieldset#edit-overlay-control {
   display: none;
+}
+
+/* Styling for Order States BEF Checkboxes */
+
+#edit-state-wrapper div.bef-checkboxes div.form-type-bef-checkbox {
+  display: inline-block;
+  float: none;
+  margin-right: 1em;
+}
+
+/* Styling for User Edit Form */
+
+#edit-field-expiration-date {
+  width: 47.5%;
+  float: left;
+}
+
+#edit-field-previous-expiration-date {
+  width: 50%;
+  float: right;
+  clear: none;
+}
+
+#edit-field-date-paid,
+#edit-field-expiration-date,
+#edit-field-previous-expiration-date {
+  width: 30%;
+  float: left;
+  margin-left: 2.5%;
+}
+
+#edit-field-membership-order {
+  clear: both;
+}
+
+#field-date-paid-add-more-wrapper fieldset.form-wrapper,
+#field-expiration-date-add-more-wrapper fieldset.form-wrapper,
+#field-previous-expiration-date-add-more-wrapper fieldset.form-wrapper {
+  height: 14em;
 }
