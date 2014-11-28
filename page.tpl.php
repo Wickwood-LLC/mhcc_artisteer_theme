@@ -19,27 +19,31 @@ $tabs2 = (isset($tabs2) && !(empty($tabs2))) ?'<ul class="arttabs_secondary">'.r
 		<header class="art-header clearfix">
 <?php if (!empty($art_header)) { echo render($art_header); } ?>
 			<div class="art-shapes">
+				<img src="<?php echo path_to_theme('mhcc_2', 'mhcc_2'); ?>/images/object1769127921.png" />
 			</div>
+
+<div class="site-title-and-slogan">
 <?php if (!empty($site_name)) : ?>
-<?php if (!$title) : ?>
-			<h1 class="art-headline" data-left="85.39%">
-			<a href="&lt;?php echo check_url($front_page); ?&gt;" title="&lt;?php echo $site_name; ?&gt;">
-<?php echo $site_name;  ?>
-			</a>
-		</h1>
-<?php else : ?>
-		<div class="art-headline">
-			<a href="&lt;?php echo check_url($front_page); ?&gt;" title="&lt;?php echo $site_name; ?&gt;">
-<?php echo $site_name;  ?>
-			</a>
-		</div>
-<?php endif; ?>
+	<?php if (!$title) : ?>
+				<h1 class="art-headline" data-left="85.39%">
+				<a href="&lt;?php echo check_url($front_page); ?&gt;" title="&lt;?php echo $site_name; ?&gt;">
+					<?php echo $site_name;  ?>
+				</a>
+			</h1>
+	<?php else : ?>
+			<div class="art-headline">
+				<a href="&lt;?php echo check_url($front_page); ?&gt;" title="&lt;?php echo $site_name; ?&gt;">
+					<?php echo $site_name;  ?>
+				</a>
+			</div>
+	<?php endif; ?>
 <?php endif; ?>
 <?php if (!empty($site_slogan)) : ?>
 		<h2 class="art-slogan" data-left="84.57%">
-<?php echo $site_slogan; ?>
+			<?php echo $site_slogan; ?>
 		</h2>
 <?php endif; ?>
+</div>
 	</header>
 <?php if (!empty($navigation) || !empty($extra1) || !empty($extra2)): ?>
 	<nav class="art-nav clearfix">
