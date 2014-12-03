@@ -1,5 +1,6 @@
 /* @override
 	http://dev.3.mohawkhudsoncyclingclub.org/sites/dev.3.mohawkhudsoncyclingclub.org/themes/mhcc_2/css/print.css?ml2bce
+	http://a.dev.mohawkhudsoncyclingclub.org/sites/a.dev.mohawkhudsoncyclingclub.org/themes/mhcc_2/css/print.css?mpw7j3
 */
 
 
@@ -61,29 +62,31 @@ img.print-logo {border: 0;}
 
 /* Styling of Printable Ride and Events Lists */
 
-div.view-display-id-page_2 div.view-content h3,
-div.view-display-id-page_4 div.view-content h3 {
+div.view-id-full_calendar_view.view-display-id-page_6 div.view-content h3,
+div.view-id-full_calendar_view.view-display-id-page_4 div.view-content h3 {
   background-color: black;
   color: white;
   padding-left: 1em;
   padding-top: .1em;
   padding-bottom: .1em;
+  margin-bottom: .5em;
+  margin-top: .5em;
 }
 
-div.view-display-id-page_2 span.views-field.views-field-body,
-div.view-display-id-page_4 div.views-field.views-field-field-event-description {
+div.view-id-full_calendar_view.view-display-id-page_6 span.views-field.views-field-body,
+div.view-id-full_calendar_view.view-display-id-page_4 div.views-field.views-field-field-event-description {
   margin: 5px 15px 5px 35px;
   display: list-item;
   list-style-image: url('../images/bicycle-bullet.png');
 }
 
-div.view-display-id-page_2 span.views-field.views-field-body a,
-div.view-display-id-page_4 div.views-field.views-field-field-event-description a {
+div.view-id-full_calendar_view.view-display-id-page_6 span.views-field.views-field-body a,
+div.view-id-full_calendar_view.view-display-id-page_4 div.views-field.views-field-field-event-description a {
   text-decoration: none;
 }
 
-div.view-display-id-page_2 span.views-field.views-field-body a:hover,
-div.view-display-id-page_4 div.views-field.views-field-field-event-description a:hover {
+div.view-id-full_calendar_view.view-display-id-page_6 span.views-field.views-field-body a:hover,
+div.view-id-full_calendar_view.view-display-id-page_4 div.views-field.views-field-field-event-description a:hover {
   text-decoration: underline;
 }
 

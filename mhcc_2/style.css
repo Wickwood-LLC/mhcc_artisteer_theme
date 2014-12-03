@@ -1,6 +1,7 @@
 /* @override
 	http://dev.1.mohawkhudsoncyclingclub.org/sites/dev.1.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?mnwb7l
 	http://dev.2.mohawkhudsoncyclingclub.org/sites/dev.2.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?mpc31s
+	http://a.dev.mohawkhudsoncyclingclub.org/sites/a.dev.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?mpwf0h
 */
 
 /* Created by Artisteer v4.1.0.59782 */
@@ -3858,9 +3859,15 @@ div.view-display-id-page_1 h3 {
 }
 
 div.view-display-id-page_1 div.views-row {
-  margin: 5px 15px 5px 35px;
+  margin: 5px 15px 10px 35px;
   display: list-item;
   list-style-image: url('images/bicycle-bullet.png');
+  line-height: 1.4em;
+}
+
+div.view-display-id-page_1 div.views-row a {
+  text-decoration: none;
+  line-height: 1.4em;
 }
 
 span.starting-location,
@@ -4282,9 +4289,9 @@ div.field-name-field-refreshment-stops.field-label-inline .field-label {
   float: left;
 }
 
-.page-user span.locality:after {
+/* .page-user span.locality:after {
   content: ",";
-}
+}*/
 
 .page-user span.country {
   display: none;

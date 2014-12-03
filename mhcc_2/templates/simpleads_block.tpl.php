@@ -39,6 +39,10 @@
   );
 
 ?>
+<?php 
+// print_r($ads);
+// dsm($ads);
+?>
 <?php if (count($ads) > 0) : ?>
 <div class="header">
   <div class="ad-link"><?php if(!is_null($ads_page) && !empty($ads_page)) : print l(t('Advertise with us'), $ads_page); endif; ?></div>
@@ -65,6 +69,5 @@
       <?php endif; ?>
     <?php endforeach; ?>
   <?php endif; */ ?>
-
 </div>
 <?php endif; ?>
